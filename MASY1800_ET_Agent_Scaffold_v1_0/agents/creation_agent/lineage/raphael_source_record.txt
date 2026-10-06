@@ -1,0 +1,44 @@
+EMERGING TECHNOLOGIES
+Specialist Agent Record Template
+MASY1-GC 1800 | Assignments 2-8
+A. Agent and Version
+B. Specialist Purpose and Context
+C. Three-Level Finding
+D. Evidence and Testing
+E. Independent Judgment and Handoff
+Complete this record from the evidence in your working scaffold. Keep it concise. The record documents what you specialized, how you tested it, what failed or changed, and what professional judgment you reached.
+Field | Student record
+Student / team | Raphael Napoleon Hernando
+Assignment / specialist agent | Assignment 2 - Emerging Technology Creation Agent
+Date | 2026-10-05
+GitHub repository | rap-hernando/MASY1800-Emerging-Technologies-Agents
+Branch | assignment-2-creation-agent
+Commit | 6f5e1756f3ccb47891640531892f32e79c6cd5a2
+Frozen scaffold version | MASY1800_ET_Agent_Scaffold_v1_0
+Field | Student record
+Governing analytical question | How did LLM-based autonomous AI agents come into existence, what predecessor capabilities made them possible, and what does that history imply for delegating freight-invoice payment approval?
+Emerging technology | LLM-based autonomous AI agents: systems in which an LLM plans, calls external tools/APIs, observes results, and iterates toward a goal with limited human intervention.
+Intended application | Reconcile carrier freight invoices against shipment records, flag discrepancies, and potentially approve matched invoices for payment.
+Organization / industry | Mid-sized third-party logistics company (~800 employees) with ERP and transportation management systems; logistics/transportation sector.
+Adoption posture | Pragmatic/moderate adopter with moderate technical capability.
+Risk / consequence context | Financial and audit consequences. Incorrect approvals could cause improper payments, duplicate payments, control failures, or audit exceptions.
+Management question / time horizon | Should the company allow the agent to approve matched invoices autonomously rather than only flag discrepancies? Horizon: 12-18 months.
+Field | Student record
+ET generally | LLM agents emerged through the combination of large language models with external tools/APIs, planning/reasoning loops, observations, memory/state, and conventional software control. Their capability is compositional rather than the result of one isolated invention.
+ET for this application | This architecture fits invoice reconciliation because an agent can coordinate ERP/TMS lookups, compare evidence, and handle ambiguous exceptions. Exact matching, tolerances, duplicate checks, and payment eligibility can remain deterministic controls rather than LLM judgments.
+ET for this application in this organization | Existing ERP/TMS infrastructure makes bounded agentic automation plausible, but payment audit requirements raise the standard for autonomous action. The LLM can orchestrate; payment authority should sit behind independently validated, auditable control gates.
+Bounded management implication | Permit autonomous payment approval only inside a predefined control envelope verified by deterministic rules and complete audit logging; escalate exceptions or uncertain cases to a human.
+Confidence / uncertainty | Moderate-high confidence in the architectural lineage and context distinction. Lower confidence in attributing a single origin point because modern LLM agents emerged from multiple overlapping research and software traditions.
+What evidence or condition would change the conclusion | The conclusion would change if reliable evidence showed that the contemplated workflow cannot be expressed with auditable deterministic approval criteria, or if validated agent platforms could independently enforce equivalent transaction controls and assurance.
+Field | Student record
+Most important evidence/source(s) | Original research used to verify consequential claims: Vaswani et al. (2017), Attention Is All You Need; Karpas et al. (2022), MRKL Systems; Yao et al. (2022/ICLR 2023), ReAct; Schick et al. (2023), Toolformer; Park et al. (2023), Generative Agents. These support the lineage from LLMs to modular tool use, reasoning/action loops, API use, memory, and planning.
+Primary test - result | Primary case passed: the agent translated general creation history into a management-relevant architectural implication for freight-invoice approval instead of merely narrating technology history.
+Contrast test - what appropriately stayed stable | The general creation/evolution story stayed stable across all three cases: LLM foundation plus planning/reasoning, tool/API use, observation, iterative execution, and memory/state.
+Contrast test - what appropriately changed | The implication changed appropriately: bounded deterministic approval controls for logistics payments; relatively high creative discretion with human review for a marketing agency; much narrower execution authority and stronger policy/authorization gates for a regulated community bank.
+Weakness/failure found | Initial generic output risk: the agent could equate technical ability to act with organizational authority to act and could produce history that barely changed across contexts.
+Revision made and why | Added a historical-relevance control requiring each major historical finding to map to a present architectural dependency and to distinguish technical capability from decision authority. This forces history to inform the management decision.
+Remaining limitation / abstention condition | The Creation Agent should not decide overall organizational readiness, regulatory acceptability, diffusion, or final adoption approval. It should abstain or qualify when consequential origin, timing, component, or enabling-development claims cannot be verified.
+Field | Student record
+Is the agent credible enough for team consideration? Why? | Yes. The agent is credible enough for team consideration because it preserves stable general ET history, changes contextual implications appropriately, distinguishes evidence from inference, and produces a bounded management implication rather than generic historical prose.
+Most important recommendation to the team | Preserve the three-level structure and the rule that agentic capability does not itself confer transaction authority. For consequential workflows, integrate LLM orchestration with deterministic controls, explicit escalation, and auditable action boundaries.
+AI / verification note | ChatGPT/Codex materially helped draft and critique the specialist instructions, generate contrast cases, structure the outputs, and identify the generic-history failure mode. Consequential claims about origin, components, timing, and enabling developments were checked against original research papers rather than relying on model memory or generated summaries. The frozen scaffold, common input/output contract, and validator were preserved.

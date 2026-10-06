@@ -1,0 +1,44 @@
+EMERGING TECHNOLOGIES
+Specialist Agent Record Template
+MASY1-GC 1800 | Assignments 2-8
+A. Agent and Version
+B. Specialist Purpose and Context
+C. Three-Level Finding
+D. Evidence and Testing
+E. Independent Judgment and Handoff
+Complete this record from the evidence in your working scaffold. Keep it concise. The record documents what you specialized, how you tested it, what failed or changed, and what professional judgment you reached.
+Field | Student record
+Student / team | Karoline He
+Assignment / specialist agent | Assignment 2 - Emerging Technology Creation Agent
+Date | October 3, 2026
+GitHub repository | kh4214/MASY1800-ET-Agent-Lab
+Branch | main
+Commit | 5b75a2f (latest); bd3e898 is the main build/test commit
+Frozen scaffold version | MASY1800_ET_Agent_Scaffold_v1_0
+Field | Student record
+Governing analytical question | How did this technology come into existence, what combination of prior capabilities made it possible, and what does that history imply for this application and organization?
+Emerging technology | Large Language Models (LLMs)
+Intended application | AI-powered customer service assistant
+Organization / industry | Small-to-medium U.S. e-commerce retailer / E-commerce and retail
+Adoption posture | Exploring a pilot before broader adoption.
+Risk / consequence context | Incorrect responses could confuse customers, provide inaccurate product or order information, or damage trust; human escalation is available.
+Management question / time horizon | How does the way LLMs were created and evolved affect their capabilities, dependencies, and limitations for customer service in this organization? Current capabilities and near-term implementation.
+Field | Student record
+ET generally | LLMs emerged through recombination and scaling of earlier capabilities including neural language modeling, distributed representations, attention/Transformers, large-scale pretraining, increased data and compute, and later instruction/alignment methods.
+ET for this application | For customer service, LLM history explains strong flexible language generation but also why the model is not inherently an authoritative or current source for company products, policies, inventory, or order data.
+ET for this application in this organization | A small-to-medium retailer with limited technical resources would likely rely on an external LLM service and focus its own effort on company-data integration, testing, controls, and human escalation rather than training a foundation model.
+Bounded management implication | If piloted, treat the LLM as a language capability that must be connected to reliable company information and escalation processes. Final adoption/readiness decisions should be handled with other specialist perspectives.
+Confidence / uncertainty | Moderate-to-high confidence in the broad creation/evolution pattern; lower confidence in provider-specific performance because no specific commercial model or implementation was tested.
+What evidence or condition would change the conclusion | A specific provider/model, architecture, retrieval setup, or organizational implementation with measured performance could change the application- and organization-level implications.
+Field | Student record
+Most important evidence/source(s) | Representative sources used by the test outputs included Vaswani et al. (2017) on Transformers, Brown et al. (2020) on large-scale language-model scaling, Ouyang et al. (2022) on instruction tuning/RLHF, and Lewis et al. (2020) on retrieval-augmented generation. These citations were generated during testing and were not independently re-verified for this submission.
+Primary test - result | v0.1 passed the scaffold validator and correctly separated general ET, application, and organization findings. It was useful but its explanation of technological recombination was not systematic enough.
+Contrast test - what appropriately stayed stable | Across the e-commerce, hospital, and multinational retail cases, the core LLM creation history remained substantially stable, including Transformers, large-scale pretraining, scaling, and later instruction/alignment methods.
+Contrast test - what appropriately changed | Contextual implications changed appropriately: the hospital case emphasized clinical reliability, grounding, human oversight, and patient-harm consequences; the multinational retailer emphasized multilingual use, multiple markets, enterprise integration, and scale.
+Weakness/failure found | v0.1 identified important predecessors and stages but sometimes read like a chronology/list rather than clearly explaining what function each building block contributed and what new capability their combination enabled.
+Revision made and why | In v0.2, Analytical Framework Step 3 was revised to require: (a) contributing building blocks/capabilities, (b) the function each contributed, and (c) the new or improved capability produced by their combination. This directly targeted the weakness found in v0.1.
+Remaining limitation / abstention condition | The agent does not establish current provider-specific performance without a named model and implementation. It should also hand off final judgments about adoption, diffusion, investment, organizational readiness, ethics, or regulation to the appropriate specialist.
+Field | Student record
+Is the agent credible enough for team consideration? Why? | Yes, as a bounded Creation specialist. Testing showed that it keeps the general technology history stable across contexts while changing application- and organization-specific implications. The v0.2 revision also improved the explicit explanation of technological recombination. Its conclusions should remain qualified where evidence is incomplete or provider-specific.
+Most important recommendation to the team | Preserve the three-level structure (ET generally -> application -> organization), the explicit building-block combination logic, and the boundary/abstention rules when integrating this specialist into the later mixture-of-experts system.
+AI / verification note | ChatGPT was used to interpret the assignment, draft and critique specialist instructions, generate contrast cases, run the structured agent prompts, compare outputs, and help diagnose the v0.1 weakness. Local scaffold tools were used to validate saved responses and confirm the frozen core remained intact. The student made the final design/revision judgment. Source citations produced in the AI test outputs were not independently re-verified for this submission and should not be treated as verified solely because they appeared in an AI-generated response.
