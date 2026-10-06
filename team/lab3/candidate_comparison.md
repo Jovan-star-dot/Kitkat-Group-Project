@@ -1,7 +1,7 @@
 # KitKat Lab 3 candidate comparison and synthesis
 Date: October 6, 2026. Selection recommended by ChatGPT/Codex; Jovan authorized
-building and integration. A second human reviewer and full-team acceptance of this
-new synthesis have not been recorded. Lab 2 consensus is not Lab 3 consensus.
+building and integration. Jovan Diaz subsequently reported the team's approval
+of version 0.2-team for Lab 3 submission. See acceptance_record.md.
 
 | Contributor | Material inspected | Retained | Changed or rejected |
 |---|---|---|---|
@@ -18,6 +18,7 @@ Five contributed source designs; no unverified coding or workshop attendance is
 attributed. Jovan coordinated materials and authorized integration. AI implemented
 the synthesis and performed the documented checks.
 
-Dissent: no Lab 3 human disagreement or consensus was reported. The comparison
-preserves interpretive concerns: causal overstatement, under-sourced claims,
-generic history, and recommendations beyond specialist authority.
+Team decision: accept the synthesized version 0.2-team as the Creation expert,
+as reported by Jovan Diaz on October 6, 2026. Detailed individual dissent comments
+were not supplied. The comparison retains analytical concerns: causal overstatement,
+under-sourced claims, generic history, and recommendations beyond specialist authority.

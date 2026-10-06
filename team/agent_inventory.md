@@ -1,11 +1,11 @@
 # KitKat Agent Inventory
 
 Seven slots reserved for course specialists.
-Official role names and assignments await team confirmation.
+Slot 1 is the team-approved Creation specialist. Later slots remain reserved.
 
 | Slot | Specialist | Contributor | Version/commit | Evidence location | Validation | Reviewer | Approval |
 |---|---|---|---|---|---|---|---|
-| 1 | Creation Agent | Five source designs; Jovan integration lead | 0.2-team; commit history identifies integration | team/lab3/ | Primary and contrast passed; frozen core intact | ChatGPT/Codex technical review; human review unrecorded | Jovan-authorized integration; full-team approval unrecorded |
+| 1 | Creation Agent | Five source designs; Jovan integration lead | 0.2-team; implementation 56759a2 | team/lab3/ | Primary and contrast passed; frozen core intact | ChatGPT/Codex technical checks; team acceptance reported by Jovan Diaz | Team-approved October 6, 2026; team/lab3/acceptance_record.md |
 | 2 | Pending | Unassigned | Pending | Pending | Not tested | Unassigned | Not reviewed |
 | 3 | Pending | Unassigned | Pending | Pending | Not tested | Unassigned | Not reviewed |
 | 4 | Pending | Unassigned | Pending | Pending | Not tested | Unassigned | Not reviewed |

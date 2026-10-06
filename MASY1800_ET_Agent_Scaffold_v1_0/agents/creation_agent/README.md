@@ -1,5 +1,6 @@
 # KitKat Creation Agent
-Version 0.2-team, Team Lab 3. Jovan-authorized integration; team human review unrecorded.
+Version 0.2-team, Team Lab 3. Team-approved October 6, 2026, as reported by Jovan Diaz.
+Acceptance record: repository-root team/lab3/acceptance_record.md.
 Run from MASY1800_ET_Agent_Scaffold_v1_0:
 ```bash
 python3 tools/check_frozen_core.py
@@ -12,4 +13,4 @@ Prompt building does not execute the model. Submit the packet in the course-appr
 interactive model, save each new JSON response under a new versioned name, validate,
 and review the reasoning. Saved test outputs are from the documented October 6 session.
 The fields remain those of the frozen output contract. See records/agent_record.md
-and ../../.. /team/lab3/ (repository-root team/lab3) for evidence and comparison.
+and repository-root team/lab3/ for evidence, comparison, and acceptance.
