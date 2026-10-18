@@ -1,0 +1,38 @@
+{
+  "verified_on": "2026-10-18",
+  "verification_method": "Public primary-source abstract/submission pages and official product announcement inspected by ChatGPT/Codex. No full-paper replication.",
+  "sources": [
+    {
+      "id": "E1",
+      "reference": "Karpas et al., MRKL Systems",
+      "url": "https://arxiv.org/abs/2205.00445",
+      "date": "2022-05-01 (initial submission)",
+      "supports": "A documented modular combination of language models, external knowledge and reasoning tools; the abstract describes Jurassic-X.",
+      "limit": "Abstract and submission metadata verified; not a claim of universal invention priority, parcel-service performance, or current market readiness."
+    },
+    {
+      "id": "E2",
+      "reference": "Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "date": "2022-10-06 (initial submission); 2023 ICLR version",
+      "supports": "A documented method interleaving reasoning and task actions with external sources/environments.",
+      "limit": "Paper abstract and metadata verified; task-specific results do not establish customer-service ROI or reliable production use."
+    },
+    {
+      "id": "E3",
+      "reference": "Schick et al., Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "url": "https://arxiv.org/abs/2302.04761",
+      "date": "2023-02-09 (initial submission)",
+      "supports": "A documented model approach for selecting API calls, timing, arguments and result use.",
+      "limit": "Abstract and metadata verified; tool selection is distinct from company integration, permissions and transaction authority."
+    },
+    {
+      "id": "E4",
+      "reference": "OpenAI, New tools for building agents",
+      "url": "https://openai.com/index/new-tools-for-building-agents/",
+      "date": "2025-03-11",
+      "supports": "The provider announced Responses API, built-in tools and Agents SDK, supporting historical productization of agent-building components.",
+      "limit": "First-party launch evidence only; no independent success, adopter deployment, current feature guarantee or proven unit economics."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "agent": {
+    "name": "KitKat Innovation Classification Agent",
+    "specialty": "innovation classification and organizational significance",
+    "version": "1.0-team"
+  },
+  "analytical_question": "Does a demonstration labeled an autonomous breakthrough qualify when the supplied trace fixes every lookup and no model decision controls the next step?",
+  "general_et_finding": "Unit: the language-model/tool-selection mechanism, compared with established workflow automation, not a claim about every AI agent. E1-E3 document tool-augmented and action-selecting research approaches by 2022-2023; E4 establishes historical availability of provider agent-building components in 2025. The documented methods/offering are evidence of innovation and productization through existing-component recombination; they do not establish this retailer as an inventor or a global first. Provider commercialization is evidenced at announcement level; neither adopter entrepreneurship nor profitable commercialization is established. Degree: a provisional incremental extension of workflow automation is defensible for this bounded use, but a breakthrough capability interpretation remains plausible if dynamic selection solves materially different tasks at comparable quality/cost. Without that comparison, degree is not settled. Newness to an organization, market availability and business-model disruption are separate judgments.",
+  "application_finding": "The more specific supplied trace contradicts the nominal dynamic-selection description: retrieve-order, retrieve-delivery and draft always run in a developer-defined sequence, with no model choice, repeat or skip. Classify this demonstration as a structured AI workflow with a language-model drafting step, not demonstrated dynamic tool-selection autonomy. It is a prototype/proposed process change, not proven implemented innovation at A. Relative to A's already fixed workflow, a material process improvement is not established. A plausible competing interpretation is that language-model drafting itself enables a substantial new service capability, but no matched capability, answer-quality or cost evidence supports breakthrough; novelty of a demo or vendor language is insufficient.",
+  "organization_specific_finding": "A's mature fixed-workflow baseline and data interfaces are unchanged, but the demonstrated candidate adds no evidenced model control over lookup sequence. Realized impact: Undetermined. Prospective structural impact: Undetermined because the candidate's incremental value is not established; in its stated bounded form the retail model and human decision authority are preserved, with no evidenced restructuring mechanism. Potential drafting value and retrieval-task displacement remain unverified. A low-risk label, product price, business success or eliminated role cannot be inferred.",
+  "evidence": [
+    {
+      "claim": "A documented modular combination of language models, external knowledge and reasoning tools; the abstract describes Jurassic-X.",
+      "source_or_reference": "E1: Karpas et al., MRKL Systems; https://arxiv.org/abs/2205.00445",
+      "date_or_recency": "2022-05-01 (initial submission); page checked 2026-10-18",
+      "evidence_type": "Primary research abstract/metadata",
+      "notes": "Abstract and submission metadata verified; not a claim of universal invention priority, parcel-service performance, or current market readiness."
+    },
+    {
+      "claim": "A documented method interleaving reasoning and task actions with external sources/environments.",
+      "source_or_reference": "E2: Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models; https://arxiv.org/abs/2210.03629",
+      "date_or_recency": "2022-10-06 (initial submission); 2023 ICLR version; page checked 2026-10-18",
+      "evidence_type": "Primary research abstract/metadata",
+      "notes": "Paper abstract and metadata verified; task-specific results do not establish customer-service ROI or reliable production use."
+    },
+    {
+      "claim": "A documented model approach for selecting API calls, timing, arguments and result use.",
+      "source_or_reference": "E3: Schick et al., Toolformer: Language Models Can Teach Themselves to Use Tools; https://arxiv.org/abs/2302.04761",
+      "date_or_recency": "2023-02-09 (initial submission); page checked 2026-10-18",
+      "evidence_type": "Primary research abstract/metadata",
+      "notes": "Abstract and metadata verified; tool selection is distinct from company integration, permissions and transaction authority."
+    },
+    {
+      "claim": "The provider announced Responses API, built-in tools and Agents SDK, supporting historical productization of agent-building components.",
+      "source_or_reference": "E4: OpenAI, New tools for building agents; https://openai.com/index/new-tools-for-building-agents/",
+      "date_or_recency": "2025-03-11; page checked 2026-10-18",
+      "evidence_type": "First-party historical product announcement",
+      "notes": "First-party launch evidence only; no independent success, adopter deployment, current feature guarantee or proven unit economics."
+    },
+    {
+      "claim": "The candidate is a demonstration with a fixed developer-defined trace and no model control over selecting/repeating/skipping lookup; no comparative outcomes are supplied.",
+      "source_or_reference": "cases/borderline.json: BORDERLINE IMPLEMENTATION EVIDENCE in additional_context",
+      "date_or_recency": "Hypothetical trace stipulation authored 2026-10-18",
+      "evidence_type": "Conflicting scenario descriptions resolved in favor of the specific stipulated implementation trace",
+      "notes": "No actual runtime trace or vendor product was inspected. The trace is stronger scenario evidence than the nominal label; historical research evidence remains about the technology family, not this demo."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "A fixed workflow can still be a useful innovation, and a recombination can be a breakthrough; absence of demonstrated autonomy alone does not rule out either.",
+    "The trace might omit genuine model-controlled branching elsewhere. That competing explanation requires complete implementation and execution evidence, not a promotional label.",
+    "Without comparative evidence, neither a breakthrough conclusion nor a measured incremental benefit is warranted for this candidate."
+  ],
+  "confidence_and_uncertainty": "High confidence, conditional on the stipulated trace, in structured-workflow rather than dynamic-selection classification. Low confidence in comparative value or degree of change. Reverse the mechanism judgment if complete traces show the model actually selecting permitted next actions; reconsider breakthrough only with task-matched evidence of a substantial capability discontinuity. Implemented use and net value require separate evidence.",
+  "value_opportunity_implication": "Possible drafting assistance is distinct from autonomous information gathering. No observed customer, economic or organizational return is supplied, and no numeric benefit should be invented.",
+  "risk_governance_implication": "A misleading autonomy label could cause managers to assume unsupported capability and authority. The fixed sequence still can propagate stale tracking; no refunds, loss declarations or account changes are authorized by the case.",
+  "recommendation_management_implication": "Retain a scoped, provisional classification rather than an adoption verdict. Route ancestry/global-origin questions to Creation, society-wide significance to Promethean, and readiness, comparative evaluation, deployment, investment and final action to the appropriate specialists/accountable managers. No pilot plan or transaction authority follows from this classification.",
+  "change_monitoring_triggers": [
+    "Complete implementation and execution traces establishing who chooses the next step.",
+    "Matched fixed-workflow versus candidate outcomes at comparable task coverage, quality and total cost.",
+    "Evidence of offered versus actually implemented use and any changed value-creation/capture mechanism."
+  ],
+  "abstention_or_more_information_needed": [
+    "Abstain on breakthrough, global invention, realized innovation benefits, commercialization viability and structural-impact magnitude.",
+    "Need complete traces, the actual incumbent comparison, implemented-use evidence and net outcomes; a label cannot resolve these gaps."
+  ]
+}

@@ -1,0 +1,26 @@
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+exit=0
+INPUT SCHEMA AUDIT PASSED: primary
+$ python tools/validate_response.py agents/innovation_classification_agent/responses/primary_response.json
+VALIDATION PASSED
+exit=0
+OUTPUT SCHEMA AUDIT PASSED: primary
+INPUT SCHEMA AUDIT PASSED: contrast_1
+$ python tools/validate_response.py agents/innovation_classification_agent/responses/contrast_1_response.json
+VALIDATION PASSED
+exit=0
+OUTPUT SCHEMA AUDIT PASSED: contrast_1
+INPUT SCHEMA AUDIT PASSED: borderline
+$ python tools/validate_response.py agents/innovation_classification_agent/responses/borderline_response.json
+VALIDATION PASSED
+exit=0
+OUTPUT SCHEMA AUDIT PASSED: borderline
+CONTEXT CONTRAST PASSED: only organization and capabilities_constraints differ
+SAVED GENERAL-FINDING INVARIANCE PASSED (interactive paired run; not blind robustness evidence)
+ORGANIZATION FINDING DIFFERS: semantic adequacy reviewed separately in test_report.md
+LINEAGE SNAPSHOT DIGESTS PASSED
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+exit=0
+ALL SAVED-ARTIFACT CHECKS PASSED

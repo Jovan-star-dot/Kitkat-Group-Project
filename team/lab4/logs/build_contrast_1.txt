@@ -1,0 +1,3 @@
+$ python tools/build_prompt.py --agent agents/innovation_classification_agent --case agents/innovation_classification_agent/cases/contrast_1.json
+/workspace/scratch/16e40e3f838c/lab4_final_work/MASY1800_ET_Agent_Scaffold_v1_0/work/innovation_classification_agent_contrast_1_prompt.txt
+exit=0
