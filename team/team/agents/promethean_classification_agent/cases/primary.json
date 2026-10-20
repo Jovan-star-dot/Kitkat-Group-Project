@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools/APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Reconcile carrier freight invoices against shipment records, flag discrepancies, and approve matched invoices for payment.",
+  "organization": "Mid-sized third-party logistics company with approximately 800 employees.",
+  "industry_sector": "Third-party logistics / transportation services.",
+  "business_need": "Reduce manual freight-audit effort and payment cycle time while preserving payment accuracy and auditability.",
+  "users_stakeholders": "Accounts payable, freight audit, operations, finance leadership, internal audit, carriers, and IT/data teams.",
+  "adoption_posture": "Pragmatic adopter / moderate fast-follower.",
+  "capabilities_constraints": "ERP and TMS are in place; moderate technical capability; payment controls and audit evidence must be preserved; integration and monitoring capacity are finite.",
+  "risk_consequence_context": "Incorrect or duplicate payments, audit exceptions, carrier disputes, financial loss, control failures, and downstream accounting corrections.",
+  "management_question": "How much should the broad significance of LLM-based autonomous AI agents influence the decision to allow autonomous approval of matched freight invoices rather than limiting the agent to reconciliation and recommendations?",
+  "time_horizon": "12-18 months.",
+  "additional_context": "General technology classification should remain separate from the local application decision."
+}
