@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools/APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Draft social-media copy and event-theme ideas for human review before publication.",
+  "organization": "Small marketing agency.",
+  "industry_sector": "Marketing and creative services.",
+  "business_need": "Increase ideation throughput and reduce time spent on first drafts.",
+  "users_stakeholders": "Creative staff, account managers, clients, and agency leadership.",
+  "adoption_posture": "Experimental / leading-edge.",
+  "capabilities_constraints": "Small team; lightweight tool stack; all external publication remains human-approved.",
+  "risk_consequence_context": "Brand/reputation risk is present but outputs are reversible and reviewed before publication.",
+  "management_question": "How much should the broad significance of LLM-based autonomous AI agents influence adoption of a low-consequence creative drafting workflow?",
+  "time_horizon": "6-12 months.",
+  "additional_context": "General technology classification should remain separate from the local application decision."
+}
