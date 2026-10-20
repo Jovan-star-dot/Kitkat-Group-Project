@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents: systems in which a large language model plans, calls external tools/APIs, observes results, and iterates toward a goal with limited human intervention.",
+  "intended_application": "Execute customer account-service changes such as address updates and dispute intake after interpreting customer requests.",
+  "organization": "Regional community bank.",
+  "industry_sector": "Banking / financial services.",
+  "business_need": "Reduce service-center workload and improve response time.",
+  "users_stakeholders": "Customers, service staff, operations, compliance, fraud/risk, internal audit, and IT.",
+  "adoption_posture": "Conservative / risk-averse.",
+  "capabilities_constraints": "Regulated environment; identity, authorization, audit, privacy, and change-control requirements; legacy core-banking integrations.",
+  "risk_consequence_context": "Unauthorized account changes, fraud, privacy breaches, regulatory findings, customer harm, and reputational loss.",
+  "management_question": "How much should the broad significance of LLM-based autonomous AI agents influence allowing the agent to execute account changes rather than only interpret requests and recommend actions?",
+  "time_horizon": "12-24 months.",
+  "additional_context": "General technology classification should remain separate from the local application decision."
+}
