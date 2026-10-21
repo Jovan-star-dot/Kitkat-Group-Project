@@ -1,0 +1,41 @@
+{
+  "verified_on": "2026-10-20",
+  "sources": [
+    {
+      "id": "E1",
+      "reference": "Fortino, A. (2026). Mastering the Craft of Emerging Technology Adoption (assigned draft), Chapter 11, pp. 142–151.",
+      "locator": "Sections 11.2 and 11.7; assigned Library textbook, read October 20, 2026.",
+      "date": "2026 assigned draft; inspected 2026-10-20",
+      "type": "Course framework and author calibration",
+      "supports": "Ordered system/barrier/suppression/tier instrument, six criteria after dissolution, prospective versus retrospective mode; generative-AI worked example is Potential Promethean.",
+      "limits": "An author-developed framework and calibration, not independent verification of current deployment or a universal consensus."
+    },
+    {
+      "id": "E2",
+      "reference": "Yao, S., et al. (2022/2023). ReAct: Synergizing reasoning and acting in language models.",
+      "locator": "https://arxiv.org/abs/2210.03629",
+      "date": "Submitted 2022-10-06; revised 2023-03-10; abstract checked 2026-10-20",
+      "type": "Primary research abstract and metadata",
+      "supports": "Documents interleaved reasoning/actions with external information.",
+      "limits": "Task-specific research, not customer-service outcomes or civilizational durability."
+    },
+    {
+      "id": "E3",
+      "reference": "Anthropic. (2024, December 19). Building effective agents.",
+      "locator": "https://www.anthropic.com/research/building-effective-agents",
+      "date": "2024-12-19; inspected 2026-10-20",
+      "type": "First-party engineering guidance",
+      "supports": "Distinguishes fixed workflows from model-directed tool use.",
+      "limits": "Architecture guidance, not independent business or societal-impact evidence; the page notes tooling has changed since 2024."
+    },
+    {
+      "id": "E4",
+      "reference": "Stanford Institute for Human-Centered Artificial Intelligence. (2026). Technical performance. The 2026 AI Index Report.",
+      "locator": "https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance",
+      "date": "2026 report on 2025 performance; inspected 2026-10-20",
+      "type": "Authoritative benchmark synthesis",
+      "supports": "Reports OSWorld at 66.3% versus a 72.35% human baseline.",
+      "limits": "Structured benchmark scope, not a failure rate for customer service or proof/disproof of eventual civilizational transformation."
+    }
+  ]
+}

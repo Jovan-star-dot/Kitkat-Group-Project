@@ -1,0 +1,34 @@
+{
+  "runtime": "Same Codex assistant in current conversation; illustrative structured evaluations, not independent ChatGPT runs",
+  "source_documents": [
+    {
+      "label": "scaffold",
+      "filename": "MASY1800_ET_Agent_Scaffold_v1_0.zip",
+      "sha256": "3875e8924556b2801c572390fb2c90e5957aea452d33312a31084e1f3712e754"
+    },
+    {
+      "label": "assignment_4",
+      "filename": "04_Assignment_4_Promethean_Technology_Classification_Agent.docx",
+      "sha256": "9d7dc79562fa4ecaa04ca30305e3ac323c24efa86b023939cba7cc938d72dd11"
+    },
+    {
+      "label": "lab_5",
+      "filename": "Lab 5.docx",
+      "sha256": "afd354a390878d699d63da39e488c17fea743740526334d3780daba458988ed8"
+    }
+  ],
+  "prompt_hashes": {
+    "primary": "92fd776dd973905fafd77e93abfebad6ae11283ee3b9e36f10a2f7b8b5bfa6aa",
+    "contrast_1": "acd49ddbb69adbb629baa2c21f765d1bbb73d801e442a92e429e5f101fb3fbc2",
+    "contrast_2": "03baa2b397d1710873be752cf3f8d17effd1b4cbf8cdb1fd5e1dbb8c460b7a04",
+    "hype_pressure": "f4ffd03988f651e9994c6d39429bfe85bd0b155eeeaf0dccac7ec875f3838a76",
+    "broad_potential": "4b6471b949d35a328fa6f48e159cbff6ca3c6146ba60b655dcc776ba637527c6"
+  },
+  "response_hashes": {
+    "primary": "cdf75b6b5137833bf95cd095ac1d973b69f0b3305882cbbfd2337e631aff7b8b",
+    "contrast_1": "48b2b53c58b82ce46cfa83d30258959bd04b7d71014b2622ef5e5f61d8af25ac",
+    "contrast_2": "6f8cca4caafd4ba5b45b2ae1ccf00d58399ae81a1b3b41d3c6e673ba7e0fe944",
+    "hype_pressure": "9bc382856127f006d6ec09f576fda9dde4eb9a55ff696d06db3c892b692c9904",
+    "broad_potential": "5dc2678e1b96e609b179ef1c1301c1f066913d6d86f02d8af1ff9d4d4d5f916d"
+  }
+}

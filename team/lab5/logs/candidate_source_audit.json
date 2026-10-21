@@ -1,0 +1,322 @@
+{
+  "jie": {
+    "core_and_tools": [
+      {
+        "path": "core/common_instructions.md",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/input_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/output_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/new_agent.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/validate_response.py",
+        "status": "MATCH"
+      }
+    ],
+    "responses": [
+      {
+        "file": "agents/promethean_classification_agent/responses/broad_potential_codex_example.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/contrast_1_codex_example.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/contrast_2_codex_example.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/hype_pressure_codex_example.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/primary_codex_example.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      }
+    ],
+    "inputs": [
+      {
+        "file": "agents/promethean_classification_agent/cases/broad_potential.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "agents/promethean_classification_agent/cases/contrast_1.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "agents/promethean_classification_agent/cases/contrast_2.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "agents/promethean_classification_agent/cases/hype_pressure.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "agents/promethean_classification_agent/cases/primary.json",
+        "schema_errors": [],
+        "placeholder": false
+      }
+    ],
+    "frozen": {
+      "stdout": "FROZEN CORE INTACT",
+      "exit": 0
+    },
+    "constructed_fixture": {
+      "schema_errors": [],
+      "source_status": "Deliberately constructed; not observed model failure"
+    }
+  },
+  "jovan": {
+    "core_and_tools": [
+      {
+        "path": "core/common_instructions.md",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/input_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/output_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/new_agent.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/validate_response.py",
+        "status": "MATCH"
+      }
+    ],
+    "responses": [
+      {
+        "file": "agents/promethean_classification_agent/responses/contrast_1_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/contrast_2_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/hype_stress_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/hype_stress_response_v1.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/primary_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      }
+    ],
+    "inputs": [
+      {
+        "file": "agents/promethean_classification_agent/cases/contrast_1.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "agents/promethean_classification_agent/cases/contrast_2.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "agents/promethean_classification_agent/cases/primary.json",
+        "schema_errors": [],
+        "placeholder": false
+      }
+    ],
+    "frozen": {
+      "stdout": "FROZEN CORE INTACT",
+      "exit": 0
+    }
+  },
+  "muhammad": {
+    "core_and_tools": [
+      {
+        "path": "core/common_instructions.md",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/input_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/output_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "status": "MISSING"
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "status": "MISSING"
+      },
+      {
+        "path": "tools/new_agent.py",
+        "status": "MISSING"
+      },
+      {
+        "path": "tools/validate_response.py",
+        "status": "MISSING"
+      }
+    ],
+    "responses": [
+      {
+        "file": "promethean_agent/responses/contrast_1_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "promethean_agent/responses/primary_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      }
+    ],
+    "inputs": [
+      {
+        "file": "promethean_agent/cases/contrast_1.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "promethean_agent/cases/contrast_2.json",
+        "schema_errors": [],
+        "placeholder": true
+      },
+      {
+        "file": "promethean_agent/cases/primary.json",
+        "schema_errors": [],
+        "placeholder": false
+      }
+    ],
+    "frozen": {
+      "status": "Full package check unavailable; inspect included-file results"
+    }
+  },
+  "karoline": {
+    "core_and_tools": [
+      {
+        "path": "core/common_instructions.md",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/input_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "core/output_schema.json",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/new_agent.py",
+        "status": "MATCH"
+      },
+      {
+        "path": "tools/validate_response.py",
+        "status": "MATCH"
+      }
+    ],
+    "responses": [
+      {
+        "file": "agents/promethean_classification_agent/responses/contrast_1_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/primary_response.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": []
+      },
+      {
+        "file": "agents/promethean_classification_agent/responses/primary_v0_1_schema_failure.json",
+        "validator_stdout": "VALIDATION PASSED",
+        "exit": 0,
+        "schema_errors": [
+          "$: extra promethean_criteria"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "file": "agents/promethean_classification_agent/cases/contrast_1.json",
+        "schema_errors": [],
+        "placeholder": false
+      },
+      {
+        "file": "agents/promethean_classification_agent/cases/primary.json",
+        "schema_errors": [],
+        "placeholder": false
+      }
+    ],
+    "frozen": {
+      "stdout": "FROZEN CORE INTACT",
+      "exit": 0
+    }
+  }
+}

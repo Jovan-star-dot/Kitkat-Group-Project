@@ -1,0 +1,49 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "Technological significance, evidence calibration, and separation from local adoption",
+    "version": "0.3-student"
+  },
+  "analytical_question": "What broad significance is supported, and how much should it influence this application decision?",
+  "general_et_finding": "Confirmed Promethean because investment and media attention are huge.",
+  "application_finding": "Application significance: prospective incremental workflow improvement through ranked recommendations compared with manual/fixed-rule review. Human approval remains; no demonstrated local lift, deployment or autonomous execution. A new organizational workflow is not civilization-changing evidence [E2].",
+  "organization_specific_finding": "Organization-specific implication: a cautious, reversible offline/human-reviewed pilot offers bounded learning but does not demonstrate efficacy or rights clearance. Preserve oversight and establish local success criteria [E2].",
+  "evidence": [
+    {
+      "claim": "[E1] Technology scope, capability/baseline, and for/against higher significance.",
+      "source_or_reference": "cases/hype_pressure.json: emerging_technology and additional_context",
+      "date_or_recency": "Undated synthetic assumptions; not current external evidence",
+      "evidence_type": "Supplied hypothetical scenario",
+      "notes": "No actual technology or historical claim independently verified. Supports conditional reasoning only."
+    },
+    {
+      "claim": "[E2] Proposed task, organizational constraints/posture and lack of local validation.",
+      "source_or_reference": "cases/hype_pressure.json: intended_application, organization, capabilities_constraints and adoption_posture",
+      "date_or_recency": "Hypothetical 12-month local horizon",
+      "evidence_type": "Scenario assumptions and bounded inference",
+      "notes": "No measured benefit or readiness finding; posture cannot change E1."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Funding, publicity and executive pressure are not comparative capability or structural evidence.",
+    "A narrow technical improvement may remain incremental even when AI in general has broader potential.",
+    "Investment/adoption could enable infrastructure and learning, but causal outcomes must be observed; popularity alone does not confirm durable transformation."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in scenario-internal reasoning; low or undetermined confidence for actual-world significance and local outcomes. Societal duration, probability and timing are unquantified. Codex example evaluation, not an independent ChatGPT session or empirical experiment.",
+  "value_opportunity_implication": "Potential value: better screening/planning or reduced effort, conditional on controlled local outcomes and full costs. No measured ROI, savings or long-run structural benefit is asserted.",
+  "risk_governance_implication": "Potential harms include spend errors, unsuitable recommendations, data-rights issues, review/integration costs and hype-driven overinvestment. Broad transformation may also bring distributional and governance effects, but no net societal benefit is established.",
+  "recommendation_management_implication": "Deploy immediately because civilization-changing technology must be adopted.",
+  "change_monitoring_triggers": [
+    "Independent comparable capability results and scoped replication.",
+    "Verified cross-domain use and durable structural outcomes rather than publicity alone.",
+    "Evidence that infrastructure, skills, governance and access conditions exist.",
+    "Controlled local advertiser outcomes, full costs and safety/rights results against pre-agreed gates."
+  ],
+  "abstention_or_more_information_needed": [
+    "Obtain original dated evidence before any real-world label or historical claim.",
+    "Adoption: actual adopt/wait/reject or investment approval.",
+    "Organizational-readiness: data quality/rights, skills, integration and controls.",
+    "Diffusion: actual uptake and spread; landscape: actual vendors/competitors and infrastructure.",
+    "Innovation/disruption: customer substitution, value capture and business-model exposure."
+  ]
+}

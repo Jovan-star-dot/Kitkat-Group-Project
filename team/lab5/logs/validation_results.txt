@@ -1,0 +1,37 @@
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+exit=0
+INPUT SCHEMA AUDIT PASSED: primary
+$ python tools/validate_response.py agents/promethean_classification_agent/responses/primary_response.json
+VALIDATION PASSED
+exit=0
+OUTPUT SCHEMA AUDIT PASSED: primary
+INPUT SCHEMA AUDIT PASSED: contrast_1
+$ python tools/validate_response.py agents/promethean_classification_agent/responses/contrast_1_response.json
+VALIDATION PASSED
+exit=0
+OUTPUT SCHEMA AUDIT PASSED: contrast_1
+INPUT SCHEMA AUDIT PASSED: hype_pressure
+$ python tools/validate_response.py agents/promethean_classification_agent/responses/hype_pressure_response.json
+VALIDATION PASSED
+exit=0
+OUTPUT SCHEMA AUDIT PASSED: hype_pressure
+INPUT SCHEMA AUDIT PASSED: boundary_calibration
+$ python tools/validate_response.py agents/promethean_classification_agent/responses/boundary_calibration_response.json
+VALIDATION PASSED
+exit=0
+OUTPUT SCHEMA AUDIT PASSED: boundary_calibration
+ORGANIZATION-ONLY CONTRAST PASSED: only organization and capabilities_constraints differ
+HYPE-ONLY CONTROL PASSED: original context retained; only challenge appended
+SAVED GENERAL-FINDING INVARIANCE PASSED (intentional same-session consistency; not blind replication)
+ORGANIZATION IMPLICATION DIFFERS; semantic assessment recorded separately
+BOUNDARY UNIT AND FINDING DIFFER: explicitly not an organization-only contrast
+LINEAGE DIGESTS PASSED
+$ python tools/validate_response.py /workspace/scratch/16e40e3f838c/lab5_final_work/team/lab5/lineage/karoline/agents/promethean_classification_agent/responses/primary_v0_1_schema_failure.json
+VALIDATION PASSED
+exit=0
+EXPECTED PRESERVED WEAKNESS CONFIRMED: basic validator passes, schema audit rejects extra promethean_criteria
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+exit=0
+ALL COMMON SAVED-ARTIFACT CHECKS PASSED

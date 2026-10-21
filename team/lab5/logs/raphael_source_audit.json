@@ -1,0 +1,23 @@
+[
+  {
+    "case": "primary",
+    "validator": "VALIDATION PASSED",
+    "exit": 0,
+    "output_schema_errors": [],
+    "input_schema_errors": []
+  },
+  {
+    "case": "contrast_1",
+    "validator": "VALIDATION PASSED",
+    "exit": 0,
+    "output_schema_errors": [],
+    "input_schema_errors": []
+  },
+  {
+    "case": "contrast_2",
+    "validator": "VALIDATION PASSED",
+    "exit": 0,
+    "output_schema_errors": [],
+    "input_schema_errors": []
+  }
+]
