@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents that can plan, use tools/APIs, observe results, and iterate toward goals with limited human intervention.",
+  "intended_application": "Interpret customer service requests and execute account changes such as address updates or initiate dispute workflows.",
+  "organization": "Regional community bank with regulated customer-data and transaction processes.",
+  "industry_sector": "Banking / financial services.",
+  "business_need": "Reduce service turnaround time while maintaining identity, authorization, privacy, compliance, and audit controls.",
+  "users_stakeholders": "Customers, contact-center staff, operations, compliance, fraud, information security, regulators.",
+  "adoption_posture": "Conservative / risk-averse for autonomous customer-account actions.",
+  "capabilities_constraints": "Strong compliance and audit requirements, legacy core systems, identity verification dependencies, model-risk governance, privacy constraints.",
+  "risk_consequence_context": "Unauthorized or incorrect account changes can create fraud, privacy violations, regulatory exposure, customer harm, and difficult-to-reverse consequences.",
+  "management_question": "Given current diffusion, should the bank permit autonomous execution, supervised pilots, or monitoring only for customer-account service agents?",
+  "time_horizon": "12–24 months.",
+  "additional_context": "High-consequence regulated contrast intended to test timing implications without changing the general ET diffusion evidence."
+}
