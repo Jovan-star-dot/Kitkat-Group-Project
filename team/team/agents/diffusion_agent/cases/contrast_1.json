@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based autonomous AI agents that can plan, use tools/APIs, observe results, and iterate toward goals with limited human intervention.",
+  "intended_application": "Draft social-media copy and event-theme ideas, coordinate simple content-research steps, and submit drafts for human review before publication.",
+  "organization": "Small marketing agency with digitally fluent staff and lightweight cloud tools.",
+  "industry_sector": "Marketing / creative services.",
+  "business_need": "Increase creative throughput and reduce research/drafting time without removing human editorial control.",
+  "users_stakeholders": "Marketing strategists, copywriters, account managers, clients.",
+  "adoption_posture": "Aggressive / early adopter; willing to experiment rapidly with reversible tools.",
+  "capabilities_constraints": "Strong SaaS comfort, limited engineering staff, low integration burden, human review already embedded.",
+  "risk_consequence_context": "Most errors are reversible before publication; primary risks are brand quality, factual errors, and client trust.",
+  "management_question": "Given current diffusion, how quickly should the agency operationalize bounded agentic workflows for creative work?",
+  "time_horizon": "Next 3–6 months.",
+  "additional_context": "Low-consequence contrast intended to test whether timing changes while general diffusion evidence stays stable."
+}
