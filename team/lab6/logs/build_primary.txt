@@ -1,0 +1,4 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/primary.json
+/workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_primary_prompt.txt
+
+exit_code=0

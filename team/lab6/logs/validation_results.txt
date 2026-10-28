@@ -1,0 +1,49 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py
+FROZEN CORE INTACT
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/primary_response.json
+VALIDATION PASSED
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/primary.json
+/workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_primary_prompt.txt
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/contrast_1_response.json
+VALIDATION PASSED
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/contrast_1.json
+/workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_contrast_1_prompt.txt
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/weak_evidence_response.json
+VALIDATION PASSED
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/weak_evidence.json
+/workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_weak_evidence_prompt.txt
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/pressure_response.json
+VALIDATION PASSED
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/pressure.json
+/workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_pressure_prompt.txt
+
+exit_code=0
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/scratch/16e40e3f838c/lab6_final_work/MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py
+FROZEN CORE INTACT
+
+exit_code=0

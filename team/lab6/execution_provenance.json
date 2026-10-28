@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-27",
+  "timezone": "America/New_York",
+  "mode": "ChatGPT/Codex interactive analysis in current conversation",
+  "case_count": 4,
+  "responses_per_case": 1,
+  "independent_model_samples": false,
+  "external_finding_text_reused_deliberately": true,
+  "serialization_scripts_are_inference_engine": false,
+  "separate_api_or_live_company_run": false,
+  "designer_executor_reviewer": "same assistant",
+  "independent_human_rerun": false,
+  "checks": "saved artifacts only; every validation feature used by actual schemas; not general JSON Schema engine",
+  "artifacts": [
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/agent_metadata.json",
+      "sha256": "d803339da5c686b6a4603e2a824b1c639304f834a1ed2dc3973baf36edb3aca2"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/contrast_1.json",
+      "sha256": "ef195f1967ca7e9123958a5870506588ecd3ca2ff21841aadaf238d8fc0dddc6"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/pressure.json",
+      "sha256": "0ee03c8df080bdde47d044e7e340bc0f7959c58182ace8175338826746167744"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/primary.json",
+      "sha256": "4990407fe67f541ad5eba1df4f4e6f000d2484f145f679afe56321430aa17694"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/weak_evidence.json",
+      "sha256": "542c482f2147656a5fbc5e6308a4f79f3fd656d38d09f07bdb19343834b19ccc"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/contrast_1_response.json",
+      "sha256": "d976a08866af7647dfe3142c7cc64e29b10801e56e9e856731ddc77e9cdb2250"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/pressure_response.json",
+      "sha256": "02a40d684c8ed8abb1a2aced55df4d81df97e857ec9aaa1143ecb8e0d52f9736"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/primary_response.json",
+      "sha256": "906a99323bab4cb6b83fbb2e5e1bf911370faa7ed61e39ede01cea7b61682aaf"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/weak_evidence_response.json",
+      "sha256": "8d3cc78efa74c50753cd43b6667a0cf6f10088a7144719aff42e7def5b09c615"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_contrast_1_prompt.txt",
+      "sha256": "8dc9b86a2fa4a8d2079e8e75529d303bb03a6373f919d130d3002b3b4eee2e04"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_pressure_prompt.txt",
+      "sha256": "844059ddff700e44202d9d26fc99daff9500e69e0763eb16aaec2e47f9165ccb"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_primary_prompt.txt",
+      "sha256": "9c9e4a5d183d579e93a56e6c9590da28edf701d4537a941dfa37e42bb063b542"
+    },
+    {
+      "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/diffusion_agent_weak_evidence_prompt.txt",
+      "sha256": "e07d67e66b4501d31f7cc4fa08c16acdad95bcbd86bb4fd66d0bdc7d51d91dc7"
+    }
+  ]
+}

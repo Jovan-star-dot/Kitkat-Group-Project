@@ -1,0 +1,44 @@
+[
+  {
+    "key": "jovan",
+    "repository": "Jovan-star-dot/Individual-Lab-Emerging-Tech",
+    "commit": "4bac52a26eaf8100722031ec1cc10b9838399e11",
+    "path": "agents/diffusion_agent/specialist_instructions.md"
+  },
+  {
+    "key": "jie",
+    "repository": "chictofu/JZ-MASY1800-Emerging-Technologies-Agents",
+    "commit": "e6be84c523d8e2b9e6b07835819b9e06741b6da9",
+    "path": "agents/diffusion_agent/specialist_instructions.md"
+  },
+  {
+    "key": "karoline",
+    "repository": "kh4214/MASY1800-ET-Agent-Lab",
+    "commit": "3c383582e590098bebce66e782dec4d0f4070732",
+    "path": "agents/innovation_diffusion_agent/specialist_instructions.md"
+  },
+  {
+    "key": "muhammad",
+    "repository": "arsyuber/EmergingTech",
+    "commit": "63199fd83a19fffb8ed09d1cd45ea012d10f573e",
+    "path": "diffusion_agent/specialist_instructions.md"
+  },
+  {
+    "key": "raphael",
+    "repository": "Jovan-star-dot/Kitkat-Group-Project",
+    "commit": "1abc10d4b61882b2d497e528257c87c452d83483",
+    "path": "team/team/agents/diffusion_agent/specialist_instructions.md"
+  },
+  {
+    "key": "jovan_primary",
+    "repository": "Jovan-star-dot/Individual-Lab-Emerging-Tech",
+    "commit": "4bac52a26eaf8100722031ec1cc10b9838399e11",
+    "path": "agents/diffusion_agent/cases/primary.json"
+  },
+  {
+    "key": "jovan_contrast",
+    "repository": "Jovan-star-dot/Individual-Lab-Emerging-Tech",
+    "commit": "4bac52a26eaf8100722031ec1cc10b9838399e11",
+    "path": "agents/diffusion_agent/cases/contrast_1.json"
+  }
+]
