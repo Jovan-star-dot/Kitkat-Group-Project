@@ -1,0 +1,37 @@
+Validation date 2026-11-02
+
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+Exit: 0
+
+$ python agents/adoption_agent/check_package.py
+contrast_1.json PASS
+contrast_2.json PASS
+contrast_aggressive.json PASS
+contrast_conservative.json PASS
+monitoring.json PASS
+primary.json PASS
+primary_response.json PASS
+contrast_aggressive_response.json PASS
+contrast_conservative_response.json PASS
+monitoring_response.json PASS
+Preserved v0: EXPECTED FAIL ['$: unexpected property decision']
+FROZEN CORE INTACT
+PACKAGE CHECKS PASSED
+Exit: 0
+
+$ python tools/validate_response.py agents/adoption_agent/responses/primary_response.json
+VALIDATION PASSED
+Exit: 0
+
+$ python tools/validate_response.py agents/adoption_agent/responses/contrast_aggressive_response.json
+VALIDATION PASSED
+Exit: 0
+
+$ python tools/validate_response.py agents/adoption_agent/responses/contrast_conservative_response.json
+VALIDATION PASSED
+Exit: 0
+
+$ python tools/validate_response.py agents/adoption_agent/responses/monitoring_response.json
+VALIDATION PASSED
+Exit: 0

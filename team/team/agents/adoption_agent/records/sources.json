@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S1",
+    "claim": "Agentic systems require a choice between fixed workflows and model-directed actions; added complexity needs justification.",
+    "source_or_reference": "Anthropic, Building effective agents, https://www.anthropic.com/research/building-effective-agents",
+    "date_or_recency": "Published 2024-12-19; verified 2026-11-02",
+    "evidence_type": "Original vendor engineering guidance",
+    "notes": "Architecture guidance, not independent freight performance evidence. The page flags later tooling changes; no current product capability is inferred."
+  },
+  {
+    "id": "S2",
+    "claim": "Generative AI can confabulate; evaluation and monitoring must address the actual deployment context.",
+    "source_or_reference": "NIST AI 600-1, https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "date_or_recency": "Published July 2024; verified 2026-11-02",
+    "evidence_type": "Original voluntary risk-management guidance",
+    "notes": "Sections 2.2 and 3, MS-2.5 and MG-4.1. Not a legal mandate, certification, or estimate of freight-agent error rates."
+  },
+  {
+    "id": "S3",
+    "claim": "The 2026 survey reports agent scaling at 40% among respondents from large organizations and 22% among those from smaller organizations.",
+    "source_or_reference": "McKinsey, The state of AI in 2026, https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+    "date_or_recency": "Published 2026-08-25; verified 2026-11-02",
+    "evidence_type": "Original cross-industry self-report survey",
+    "notes": "1,719 participants in 97 nations; fielded May 4-June 8, 2026. Large means over $1 billion annual revenue. Not 3PL-specific, causal ROI evidence, or independent technical validation."
+  }
+]

@@ -1,0 +1,4 @@
+Frozen basic validator: VALIDATION PASSED
+Schema-complete check for the frozen schema: EXPECTED FAIL
+$: unexpected property decision
+Environment note: jsonschema was not installed. The specialist checker uses the standard library and covers all keywords used by the frozen contracts.
