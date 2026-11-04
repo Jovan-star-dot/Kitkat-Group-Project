@@ -1,0 +1,225 @@
+[
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "FROZEN CORE INTACT\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/primary_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/adoption_agent",
+      "--case",
+      "agents/adoption_agent/cases/primary.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab7/MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_primary_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/contrast_1_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/adoption_agent",
+      "--case",
+      "agents/adoption_agent/cases/contrast_1.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab7/MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_contrast_1_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/qualified_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/adoption_agent",
+      "--case",
+      "agents/adoption_agent/cases/qualified.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab7/MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_qualified_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/feasibility_gap_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/adoption_agent",
+      "--case",
+      "agents/adoption_agent/cases/feasibility_gap.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab7/MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_feasibility_gap_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/permission_blocker_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/adoption_agent",
+      "--case",
+      "agents/adoption_agent/cases/permission_blocker.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab7/MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_permission_blocker_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/advocate_pressure_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/adoption_agent",
+      "--case",
+      "agents/adoption_agent/cases/advocate_pressure.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab7/MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_advocate_pressure_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/risk_officer_pressure_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/adoption_agent",
+      "--case",
+      "agents/adoption_agent/cases/risk_officer_pressure.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab7/MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_risk_officer_pressure_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "team/lab7/preserved_weakness/negative_extra_decision.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab7",
+    "stdout": "FROZEN CORE INTACT\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  }
+]

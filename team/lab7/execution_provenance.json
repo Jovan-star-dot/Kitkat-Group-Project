@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "timezone": "America/New_York",
+  "version": "1.0-team",
+  "base_commit": "32e64e36f26c27056e68dfb0d7fb50ccc1c501cc",
+  "mode": "Interactive ChatGPT/Codex analysis in current conversation; assistant-authored responses serialized to JSON",
+  "case_count": 7,
+  "responses_per_case": 1,
+  "independent_model_samples": false,
+  "same_assistant_designer_executor_reviewer": true,
+  "separate_api_call": false,
+  "fresh_session_rerun": false,
+  "live_company_systems": false,
+  "operational_customer_trial": false,
+  "independent_human_rerun": false,
+  "shared_general_application_text_reused_deliberately": true,
+  "serialization_scripts_are_inference_engine": false,
+  "model_identifier": "not captured; no exact backend model asserted",
+  "source_checks": "Preparing assistant checked original Anthropic and NIST sources on 2026-11-03 for the narrow guidance claims; no current maturity/vendor/market/regulatory claim drives the action.",
+  "artifact_manifest": "team/lab7/artifact_manifest.json",
+  "technical_checks": "Saved artifacts and prompt construction, not reasoning correctness or operational performance.",
+  "approval_source": "User report that everyone reviewed and approved draft; no individual signatures or human test outputs provided."
+}

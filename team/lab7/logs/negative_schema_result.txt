@@ -1,0 +1,3 @@
+EXPECTED REJECTION
+('$', 'prohibited extra field')
+negative_control_passed=true

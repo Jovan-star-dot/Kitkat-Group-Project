@@ -1,0 +1,102 @@
+[
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/README.md",
+    "sha256": "5b099f29b6e6d9b3754c1653c5612e717f5c03f6c64bb03c77d76ff0b321b8be"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/agent_metadata.json",
+    "sha256": "1a827b6e815d2ab516ac990e059979d21bf5dbff3187e16609c3f8af1de07e4f"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/cases/advocate_pressure.json",
+    "sha256": "6bc73fe1265cc60a2e086c0c35f9e22b0fafbc64eae4f7f69a05fb71addaa992"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/cases/contrast_1.json",
+    "sha256": "e3d1aff2a4d2c226363d6c72fc10aee5ca95e1d3212c570c94f87b2d86139786"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/cases/feasibility_gap.json",
+    "sha256": "5119c092a3f786f26abfccf34f1dd61597c7c6c5ff2a96632e92795021552ade"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/cases/permission_blocker.json",
+    "sha256": "b39742f5b11214292ef76a3d89e440acfdbf4f879cfdacfc415fbcf2caa948d6"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/cases/primary.json",
+    "sha256": "955d2555f730fd19fbb873558bd3e70a8f4d119ddf2b45b98233914b21f95137"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/cases/qualified.json",
+    "sha256": "79a38f06d0b3c2b1591a58f8a30f2873313824368e18a012e61a8c52cdda5288"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/cases/risk_officer_pressure.json",
+    "sha256": "2b76060b6cb1ba68319f8c3c1c97db963556959cec169ddc87b7d515e5bf8c5c"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/recommendation_policy.md",
+    "sha256": "4e925dea968c4b533e3fe3b34920e8bfaca9c3f7874ffda9d0db5b309409250c"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/advocate_pressure_response.json",
+    "sha256": "6d59101b64a523066e2bcfd4cc93d2d5b8131e7c9375223b25551bf705dac1f9"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/contrast_1_response.json",
+    "sha256": "63c8f948ef7866960fbb8f4e4377d22e511348fed8159a90a09ee481bffdb563"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/feasibility_gap_response.json",
+    "sha256": "9db06e7f040e16718a4c05c3da3d30499d433cba48ac21560f29ba6381cf1fb4"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/permission_blocker_response.json",
+    "sha256": "ca44503545ccd8cd49489b4c1e9fc22dc3cea1dcc929a9b1b1d2eda3f97d59fc"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/primary_response.json",
+    "sha256": "470645fe1da7caa96587591e8dcd230dbc1ea5350cc2e085667446cbe32473ac"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/qualified_response.json",
+    "sha256": "7dc5f4cb2ca7ecb274eeac8db20ee26a3f97a9943e65514b39afee57fac5ae8f"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/risk_officer_pressure_response.json",
+    "sha256": "0f0884edcb90694e92157b16b8df28429897b70d0732e88e70de8b71943dcd8a"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/specialist_instructions.md",
+    "sha256": "d2b7314f0aa9a6b85ab40090b154eb2c52763c7bc17809c532f99d58df5d9fd0"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_advocate_pressure_prompt.txt",
+    "sha256": "a853f890db43c8d3ec82f53b1f5e49fc864c26ab58a3cfb6b6578883b7e6064a"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_contrast_1_prompt.txt",
+    "sha256": "ae34a440d12ac8f35dd9491c808e816976256d1f83c51fe5bf96487ac3281ac6"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_feasibility_gap_prompt.txt",
+    "sha256": "59a2ebb12a66c4b691e7f796ea6152bfe81277e346fe5e41df86d558aabfb97c"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_permission_blocker_prompt.txt",
+    "sha256": "c8664509c6ba85eb5adb7918b9e612f0d821b90f1f90b56c073f1c5fe5dcc195"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_primary_prompt.txt",
+    "sha256": "f815197b9fc8f09aa66287db97aae6f14e1594bdbe8ecf752c48a1ec910a3313"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_qualified_prompt.txt",
+    "sha256": "94bdea83eee232d013edf4ff844d4b2a50e49125f07e89aa77d8a44bdd55fe5a"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/adoption_agent_risk_officer_pressure_prompt.txt",
+    "sha256": "fe719113cd6c6373f44d5ec22cb52c98f6d05ff67733ce7d3e82a2e0db18b9e7"
+  }
+]

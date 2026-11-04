@@ -1,0 +1,111 @@
+PASS input schema uses only supported audited validation features
+PASS output schema uses only supported audited validation features
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py
+PASS primary input and full frozen output-schema audit
+PASS primary exact permitted top-level fields
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/primary_response.json
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/primary.json
+PASS primary prompt rebuilt identically
+PASS primary nine factor labels present across three levels text coverage only
+PASS primary four bias labels present text coverage only
+PASS primary contrary view triggers and gaps populated
+PASS primary no scaffold placeholders
+PASS contrast_1 input and full frozen output-schema audit
+PASS contrast_1 exact permitted top-level fields
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/contrast_1_response.json
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/contrast_1.json
+PASS contrast_1 prompt rebuilt identically
+PASS contrast_1 nine factor labels present across three levels text coverage only
+PASS contrast_1 four bias labels present text coverage only
+PASS contrast_1 contrary view triggers and gaps populated
+PASS contrast_1 no scaffold placeholders
+PASS qualified input and full frozen output-schema audit
+PASS qualified exact permitted top-level fields
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/qualified_response.json
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/qualified.json
+PASS qualified prompt rebuilt identically
+PASS qualified nine factor labels present across three levels text coverage only
+PASS qualified four bias labels present text coverage only
+PASS qualified contrary view triggers and gaps populated
+PASS qualified no scaffold placeholders
+PASS feasibility_gap input and full frozen output-schema audit
+PASS feasibility_gap exact permitted top-level fields
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/feasibility_gap_response.json
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/feasibility_gap.json
+PASS feasibility_gap prompt rebuilt identically
+PASS feasibility_gap nine factor labels present across three levels text coverage only
+PASS feasibility_gap four bias labels present text coverage only
+PASS feasibility_gap contrary view triggers and gaps populated
+PASS feasibility_gap no scaffold placeholders
+PASS permission_blocker input and full frozen output-schema audit
+PASS permission_blocker exact permitted top-level fields
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/permission_blocker_response.json
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/permission_blocker.json
+PASS permission_blocker prompt rebuilt identically
+PASS permission_blocker nine factor labels present across three levels text coverage only
+PASS permission_blocker four bias labels present text coverage only
+PASS permission_blocker contrary view triggers and gaps populated
+PASS permission_blocker no scaffold placeholders
+PASS advocate_pressure input and full frozen output-schema audit
+PASS advocate_pressure exact permitted top-level fields
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/advocate_pressure_response.json
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/advocate_pressure.json
+PASS advocate_pressure prompt rebuilt identically
+PASS advocate_pressure nine factor labels present across three levels text coverage only
+PASS advocate_pressure four bias labels present text coverage only
+PASS advocate_pressure contrary view triggers and gaps populated
+PASS advocate_pressure no scaffold placeholders
+PASS risk_officer_pressure input and full frozen output-schema audit
+PASS risk_officer_pressure exact permitted top-level fields
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/risk_officer_pressure_response.json
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/risk_officer_pressure.json
+PASS risk_officer_pressure prompt rebuilt identically
+PASS risk_officer_pressure nine factor labels present across three levels text coverage only
+PASS risk_officer_pressure four bias labels present text coverage only
+PASS risk_officer_pressure contrary view triggers and gaps populated
+PASS risk_officer_pressure no scaffold placeholders
+PASS posture is sole contrast input change
+PASS qualified only capability fact bundle changes
+PASS feasibility_gap only capability fact bundle changes
+PASS permission_blocker only capability fact bundle changes
+PASS advocate_pressure only hypothetical argument appended
+PASS advocate_pressure original evidence retained
+PASS risk_officer_pressure only hypothetical argument appended
+PASS risk_officer_pressure original evidence retained
+PASS contrast_1 deliberately stable general finding saved text
+PASS contrast_1 deliberately stable application finding saved text
+PASS qualified deliberately stable general finding saved text
+PASS qualified deliberately stable application finding saved text
+PASS feasibility_gap deliberately stable general finding saved text
+PASS feasibility_gap deliberately stable application finding saved text
+PASS permission_blocker deliberately stable general finding saved text
+PASS permission_blocker deliberately stable application finding saved text
+PASS advocate_pressure deliberately stable general finding saved text
+PASS advocate_pressure deliberately stable application finding saved text
+PASS risk_officer_pressure deliberately stable general finding saved text
+PASS risk_officer_pressure deliberately stable application finding saved text
+PASS primary saved conditional action matches qualitative review
+PASS contrast_1 saved conditional action matches qualitative review
+PASS advocate_pressure saved conditional action matches qualitative review
+PASS risk_officer_pressure saved conditional action matches qualitative review
+PASS qualified case preserves withholding
+PASS technical feasibility gap saved POC action
+PASS permission blocker saved deferral action
+PASS all six explicit action definitions present
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py team/lab7/preserved_weakness/negative_extra_decision.json
+PASS negative extra decision field rejected by frozen schema audit despite basic validator pass
+PASS lineage digest team/lab7/lineage/jie.md
+PASS lineage digest team/lab7/lineage/jie_policy.md
+PASS lineage digest team/lab7/lineage/jie_record.txt
+PASS lineage digest team/lab7/lineage/jovan.md
+PASS lineage digest team/lab7/lineage/jovan_record.txt
+PASS lineage digest team/lab7/lineage/karoline.md
+PASS lineage digest team/lab7/lineage/karoline_record.txt
+PASS lineage digest team/lab7/lineage/muhammad.md
+PASS lineage digest team/lab7/lineage/muhammad_record.txt
+PASS lineage digest team/lab7/lineage/raphael.md
+PASS lineage digest team/lab7/lineage/raphael_record.txt
+PASS lineage digest team/lab7/lineage/raphael_test.md
+PASS command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py
+ALL SAVED-ARTIFACT CHECKS PASSED; 7 official response validations; 7 full schema audits; frozen core intact.
+These checks do not establish independent model repeatability or customer-service performance.

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "E1",
+    "title": "Building effective agents",
+    "publisher": "Anthropic",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "published": "2024-12-19",
+    "accessed": "2026-11-03",
+    "claim": "Distinguishes fixed workflows from model-directed agents; advises simple baselines, evaluation and sandbox controls.",
+    "limit": "Provider engineering guidance, not exact-task comparative results or current market maturity. Page warns that tooling has changed since publication; no tooling recommendation is imported."
+  },
+  {
+    "id": "E2",
+    "title": "Artificial Intelligence Risk Management Framework Generative Artificial Intelligence Profile",
+    "publisher": "NIST",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "published": "2024-07",
+    "accessed": "2026-11-03",
+    "claim": "MEASURE 2.3 and 2.5 call for contextual evaluation and documented limits; MS-2.5-003 calls for checking sources.",
+    "limit": "Voluntary risk guidance, not certification, legal advice or evidence of this application’s performance."
+  }
+]

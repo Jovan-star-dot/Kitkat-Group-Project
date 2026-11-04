@@ -1,0 +1,438 @@
+[
+  {
+    "check": "input schema uses only supported audited validation features",
+    "passed": true
+  },
+  {
+    "check": "output schema uses only supported audited validation features",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py",
+    "passed": true
+  },
+  {
+    "check": "primary input and full frozen output-schema audit",
+    "passed": true
+  },
+  {
+    "check": "primary exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/primary_response.json",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/primary.json",
+    "passed": true
+  },
+  {
+    "check": "primary prompt rebuilt identically",
+    "passed": true
+  },
+  {
+    "check": "primary nine factor labels present across three levels text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary four bias labels present text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary contrary view triggers and gaps populated",
+    "passed": true
+  },
+  {
+    "check": "primary no scaffold placeholders",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 input and full frozen output-schema audit",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/contrast_1_response.json",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/contrast_1.json",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 prompt rebuilt identically",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 nine factor labels present across three levels text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 four bias labels present text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 contrary view triggers and gaps populated",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 no scaffold placeholders",
+    "passed": true
+  },
+  {
+    "check": "qualified input and full frozen output-schema audit",
+    "passed": true
+  },
+  {
+    "check": "qualified exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/qualified_response.json",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/qualified.json",
+    "passed": true
+  },
+  {
+    "check": "qualified prompt rebuilt identically",
+    "passed": true
+  },
+  {
+    "check": "qualified nine factor labels present across three levels text coverage only",
+    "passed": true
+  },
+  {
+    "check": "qualified four bias labels present text coverage only",
+    "passed": true
+  },
+  {
+    "check": "qualified contrary view triggers and gaps populated",
+    "passed": true
+  },
+  {
+    "check": "qualified no scaffold placeholders",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap input and full frozen output-schema audit",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/feasibility_gap_response.json",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/feasibility_gap.json",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap prompt rebuilt identically",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap nine factor labels present across three levels text coverage only",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap four bias labels present text coverage only",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap contrary view triggers and gaps populated",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap no scaffold placeholders",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker input and full frozen output-schema audit",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/permission_blocker_response.json",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/permission_blocker.json",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker prompt rebuilt identically",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker nine factor labels present across three levels text coverage only",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker four bias labels present text coverage only",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker contrary view triggers and gaps populated",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker no scaffold placeholders",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure input and full frozen output-schema audit",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/advocate_pressure_response.json",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/advocate_pressure.json",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure prompt rebuilt identically",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure nine factor labels present across three levels text coverage only",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure four bias labels present text coverage only",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure contrary view triggers and gaps populated",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure no scaffold placeholders",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure input and full frozen output-schema audit",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/responses/risk_officer_pressure_response.json",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/risk_officer_pressure.json",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure prompt rebuilt identically",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure nine factor labels present across three levels text coverage only",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure four bias labels present text coverage only",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure contrary view triggers and gaps populated",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure no scaffold placeholders",
+    "passed": true
+  },
+  {
+    "check": "posture is sole contrast input change",
+    "passed": true
+  },
+  {
+    "check": "qualified only capability fact bundle changes",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap only capability fact bundle changes",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker only capability fact bundle changes",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure only hypothetical argument appended",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure original evidence retained",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure only hypothetical argument appended",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure original evidence retained",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 deliberately stable general finding saved text",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 deliberately stable application finding saved text",
+    "passed": true
+  },
+  {
+    "check": "qualified deliberately stable general finding saved text",
+    "passed": true
+  },
+  {
+    "check": "qualified deliberately stable application finding saved text",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap deliberately stable general finding saved text",
+    "passed": true
+  },
+  {
+    "check": "feasibility_gap deliberately stable application finding saved text",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker deliberately stable general finding saved text",
+    "passed": true
+  },
+  {
+    "check": "permission_blocker deliberately stable application finding saved text",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure deliberately stable general finding saved text",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure deliberately stable application finding saved text",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure deliberately stable general finding saved text",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure deliberately stable application finding saved text",
+    "passed": true
+  },
+  {
+    "check": "primary saved conditional action matches qualitative review",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 saved conditional action matches qualitative review",
+    "passed": true
+  },
+  {
+    "check": "advocate_pressure saved conditional action matches qualitative review",
+    "passed": true
+  },
+  {
+    "check": "risk_officer_pressure saved conditional action matches qualitative review",
+    "passed": true
+  },
+  {
+    "check": "qualified case preserves withholding",
+    "passed": true
+  },
+  {
+    "check": "technical feasibility gap saved POC action",
+    "passed": true
+  },
+  {
+    "check": "permission blocker saved deferral action",
+    "passed": true
+  },
+  {
+    "check": "all six explicit action definitions present",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py team/lab7/preserved_weakness/negative_extra_decision.json",
+    "passed": true
+  },
+  {
+    "check": "negative extra decision field rejected by frozen schema audit despite basic validator pass",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/jie.md",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/jie_policy.md",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/jie_record.txt",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/jovan.md",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/jovan_record.txt",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/karoline.md",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/karoline_record.txt",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/muhammad.md",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/muhammad_record.txt",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/raphael.md",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/raphael_record.txt",
+    "passed": true
+  },
+  {
+    "check": "lineage digest team/lab7/lineage/raphael_test.md",
+    "passed": true
+  },
+  {
+    "check": "command exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py",
+    "passed": true
+  }
+]

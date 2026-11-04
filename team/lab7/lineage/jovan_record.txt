@@ -1,0 +1,42 @@
+EMERGING TECHNOLOGIES
+Specialist Agent Record
+MASY1-GC 1800 | Week 8 | Assignment 6
+This record documents the Emerging Technology Adoption Agent, its decision categories, evidence logic, contrast cases, revision, and bounded adoption judgment.
+A. Agent and Version
+Field | Student record
+Student / team | Jovan Diaz / Individual Assignment
+Assignment / specialist agent | Assignment 6 / Emerging Technology Adoption Agent
+Date | October 6, 2026
+GitHub repository / branch | https://github.com/Jovan-star-dot/Individual-Lab-Emerging-Tech / week-8-assignment-6-adoption-agent
+Record update commit | 8a7170d7209f7ab9a9d7be31dd46ad3313332afe
+
+B. Specialist Purpose and Context
+Field | Student record
+Governing analytical question | Should this organization adopt, experiment with, monitor, defer, or reject Agentic AI for this application now?
+Emerging technology | Agentic AI
+Intended application | Routine order-status/tracking and straightforward cancellation with escalation for uncertain or consequential cases
+Organization / industry | Hypothetical e-commerce retailer; contrast legacy retailer; evidence-gap case
+Decision categories | Adopt, bounded experiment, proof of concept, continue monitoring, defer, or reject for this application at this time
+
+C. Three-Level Finding
+Field | Student record
+ET generally | Agentic AI’s autonomous action layer is provisionally bleeding edge with low-to-moderate confidence. Activity and limited use do not establish representative retail diffusion or reliable routine resolution.
+ET for this application | Order-status retrieval may fit a bounded information task. Cancellation creates greater fulfillment consequences. Evidence supports evaluation, not a proven advantage over humans or simpler automation.
+ET for this application in this organization | The primary case supports a bounded experiment only because test isolation, review capacity, logging, and some reversibility are assumed. The contrast case lacks these conditions and should defer.
+Key evidence limitation | No selected system or case-specific reliability, cost, escalation, or customer-outcome results are available.
+
+D. Evidence and Testing
+Field | Student record
+Most important evidence / sources | Fortino Chapters 6, 8, and 9; Taobao customer-service field experiment; Manhattan Associates and Salesforce vendor evidence; NIST standards/evaluation work, all with scope limits.
+Primary test | Bounded experiment recommended, conditional on verifying feasibility, isolation, review, and recovery.
+Contrast and evidence-gap tests | Contrast changes to Defer because safe isolation and recovery are uncertain. Evidence-gap case allows only a conditional POC if bounded evaluation access and representative cases are supplied.
+Weakness and revision | The first outputs did not explicitly assess sunk-cost, novelty, fear-of-missing-out, and excessive-conservatism biases. A four-part observable-evidence bias check was added to the decision logic.
+Validation | All three responses passed validation; frozen core and schemas were unchanged.
+
+E. Independent Judgment and Handoff
+Field | Student record
+Independent judgment | A bounded experiment is appropriate only after basic feasibility, isolation, review, and recovery are verified. Production adoption is not justified now. Defer in the contrast case; request system-specific evidence in the evidence-gap case.
+Team handoff | Pass actual readiness, ownership, data access, controls, and support conditions to the Organizational Adoption Agent. Adoption posture remains conditional.
+
+F. Self Reflection
+This assignment helped me understand that an adoption recommendation is a bounded management posture, not a simple yes-or-no verdict on a technology. The primary case supported a bounded experiment only because the hypothetical organization was assumed to have test isolation, review capacity, and some ability to reverse actions. The contrast case moved to defer when those conditions disappeared. Adding the explicit bias check showed me that novelty, fear of missing out, sunk cost, and excessive caution should be examined through observable evidence rather than assumed motives. I also learned that a proof of concept can answer whether a system works technically, while a proof of value requires evidence against the current process. My recommendation remains conditional until system-specific performance, controls, and customer outcomes are demonstrated.

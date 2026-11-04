@@ -1,0 +1,65 @@
+[
+  {
+    "id": "jovan",
+    "repository": "Jovan-star-dot/Individual-Lab-Emerging-Tech",
+    "commit": "8a7170d7209f7ab9a9d7be31dd46ad3313332afe",
+    "path": "agents/adoption_agent/specialist_instructions.md",
+    "source_blob_sha": "05e3218a4e41506c367d080f418f9ffe0316a452",
+    "local_snapshot": "team/lab7/lineage/jovan.md",
+    "note": "Retrieved UTF-8 text snapshot; source blob SHA identifies original repository bytes."
+  },
+  {
+    "id": "jie",
+    "repository": "chictofu/JZ-MASY1800-Emerging-Technologies-Agents",
+    "commit": "0d291f58a5baab8061a0e4ebb4641b6f291511fb",
+    "path": "agents/adoption_agent/specialist_instructions.md",
+    "source_blob_sha": "bb1697fd7a0ed9c2968ccb7cf86580efa2a592f3",
+    "local_snapshot": "team/lab7/lineage/jie.md",
+    "note": "Retrieved UTF-8 text snapshot; source blob SHA identifies original repository bytes."
+  },
+  {
+    "id": "jie_policy",
+    "repository": "chictofu/JZ-MASY1800-Emerging-Technologies-Agents",
+    "commit": "0d291f58a5baab8061a0e4ebb4641b6f291511fb",
+    "path": "agents/adoption_agent/RECOMMENDATION_POLICY.md",
+    "source_blob_sha": "f00bc279a794bd3358c8e807c8587009a61dcc61",
+    "local_snapshot": "team/lab7/lineage/jie_policy.md",
+    "note": "Retrieved UTF-8 text snapshot; source blob SHA identifies original repository bytes."
+  },
+  {
+    "id": "karoline",
+    "repository": "kh4214/MASY1800-ET-Agent-Lab",
+    "commit": "92dc54998b7faf7e009f933f91ffc43e7c2c989f",
+    "path": "agents/emerging_technology_adoption_agent/specialist_instructions.md",
+    "source_blob_sha": "09845cd9549bf0520d18bd7d08dae009e8a346ca",
+    "local_snapshot": "team/lab7/lineage/karoline.md",
+    "note": "Retrieved UTF-8 text snapshot; source blob SHA identifies original repository bytes."
+  },
+  {
+    "id": "muhammad",
+    "repository": "arsyuber/EmergingTech",
+    "commit": "8ee46192dbe764409a93ac638ca7b0e22986acfb",
+    "path": "adoption_agent/specialist_instructions.md",
+    "source_blob_sha": "31fe787aa3db1dcdc5b906970d5369432c7c45fc",
+    "local_snapshot": "team/lab7/lineage/muhammad.md",
+    "note": "Retrieved UTF-8 text snapshot; source blob SHA identifies original repository bytes."
+  },
+  {
+    "id": "raphael",
+    "repository": "Jovan-star-dot/Kitkat-Group-Project",
+    "commit": "f2ff10dc55cc99aca5e68e2ef834ae18372c4625",
+    "path": "team/team/agents/adoption_agent/specialist_instructions.md",
+    "source_blob_sha": "886abc0a4007dab6ca354ece004ca0cd8c35dd31",
+    "local_snapshot": "team/lab7/lineage/raphael.md",
+    "note": "Retrieved UTF-8 text snapshot; source blob SHA identifies original repository bytes."
+  },
+  {
+    "id": "raphael_test",
+    "repository": "Jovan-star-dot/Kitkat-Group-Project",
+    "commit": "f2ff10dc55cc99aca5e68e2ef834ae18372c4625",
+    "path": "team/team/agents/adoption_agent/records/test_record.md",
+    "source_blob_sha": "19ed04d69279258f0373014f80d9c23597431236",
+    "local_snapshot": "team/lab7/lineage/raphael_test.md",
+    "note": "Retrieved UTF-8 text snapshot; source blob SHA identifies original repository bytes."
+  }
+]
