@@ -1,0 +1,22 @@
+[
+  {
+    "id": "S1",
+    "title": "NIST AI RMF 1.0 Core",
+    "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+    "published": "2023",
+    "verified": "2026-11-09",
+    "locator": "GOVERN 2.1, 2.2, 2.3",
+    "claim": "Documented responsibilities, training and executive accountability support AI risk management.",
+    "limit": "Voluntary guidance; not a readiness scoring system or proof of organization performance."
+  },
+  {
+    "id": "S2",
+    "title": "OWASP LLM06:2025 Excessive Agency",
+    "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+    "published": "2025",
+    "verified": "2026-11-09",
+    "locator": "Prevention strategies 4, 6 and 7",
+    "claim": "Restrict permissions, retain human approval for high-impact actions and enforce authorization downstream.",
+    "limit": "Security guidance; does not establish this application is accurate or profitable."
+  }
+]
