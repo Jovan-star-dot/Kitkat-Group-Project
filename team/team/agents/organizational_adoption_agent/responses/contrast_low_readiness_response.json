@@ -1,0 +1,103 @@
+{
+  "agent": {
+    "name": "Organizational Adoption of Emerging Technologies Agent",
+    "specialty": "Organizational readiness",
+    "version": "1.0-lab7"
+  },
+  "analytical_question": "Can this organization absorb, govern and sustain the proposed agentic AI freight-invoice application at the bounded pilot stage?",
+  "general_et_finding": "Agentic AI can connect model reasoning to tools; organizational readiness requires explicit accountability and bounded authority. S1 supports responsibilities, training and executive accountability; S2 supports constrained permissions. This is not an independent technology maturity rating.",
+  "application_finding": "Technology/application fit: CONDITIONAL FIT FOR EVALUATION. Retrieving freight records and drafting discrepancies is a plausible bounded use; actual accuracy, economic value and performance against manual or rules-based reconciliation remain unproven. Human payment authority and read-only retrieval are fixed requirements. Organizational gaps do not change this technology/application finding.",
+  "organization_specific_finding": "Overall readiness: NOT READY. Assessed stage: bounded human-reviewed pilot, not production.\nMost consequential gap: no accountable owner is assigned, compounded by absent data, staffing and control foundations. Build these capabilities before proposing a pilot.\nleadership/sponsorship: Status: GAP; Strength: Owner expresses interest.; Gap: No sponsor or decision rights assigned.; Consequence: Cross-functional decisions may stall. Priority: P0; Action: Approve a charter and decision rights.; Likely owner: COO sponsor (proposed; confirm appointment). Evidence: L-L, S1; Evidence needed: Signed charter and decision-rights record.\nskills: Status: GAP; Strength: Clerks know local invoices.; Gap: No technical/evaluation/training capacity assigned.; Consequence: Reviewers may miss errors or over-trust recommendations. Priority: P0; Action: Train reviewers and evaluate them on exception and incident scenarios.; Likely owner: AP manager with IT lead (proposed; confirm appointment). Evidence: L-S, S1; Evidence needed: Training/evaluation results.\nworkflow/process: Status: GAP; Strength: Individual manual work exists.; Gap: No shared exception procedure or fallback coverage.; Consequence: Exceptions may accumulate or bypass review. Priority: P0; Action: Rehearse exception routing, review capacity and manual fallback.; Likely owner: AP process owner (proposed; confirm appointment). Evidence: L-W; Evidence needed: Exception/fallback rehearsal and review-capacity evidence.\ninfrastructure/data: Status: GAP; Strength: Source records exist.; Gap: No common identifiers, approved access or test sample.; Consequence: Wrong record joins may produce unsupported discrepancies. Priority: P0; Action: Resolve identifier mapping and demonstrate provenance plus scoped read-only access on representative records.; Likely owner: Data/integration lead (proposed; confirm appointment). Evidence: L-D; Evidence needed: Representative joined sample, provenance and access-test results.\nresources/budget: Status: GAP; Strength: No funded capability supplied.; Gap: No pilot budget, reviewer time or support funding allocated.; Consequence: Pilot or ongoing service may be understaffed. Priority: P0; Action: Approve reviewer time, training and recurring support resources.; Likely owner: Sponsor and finance lead (proposed; confirm appointment). Evidence: L-R; Evidence needed: Approved staffing and recurring support allocation.\ngovernance/risk: Status: GAP; Strength: Human payment control is intended.; Gap: No tool permission, audit or incident model defined.; Consequence: An agent may exceed authority or failures may go uncontained. Priority: P0; Action: Demonstrate denied payment writes, independent controller approval, logging and a stop/incident drill.; Likely owner: Controller with security lead (proposed; confirm appointment). Evidence: L-G, S2; Evidence needed: Permission test, audit coverage and incident/stop drill.\nculture/change: Status: GAP; Strength: No participation evidence supplied.; Gap: Staff not consulted; no communication or feedback channel.; Consequence: Workarounds or silence may hide failures. Priority: P1; Action: Address role concerns and establish staff feedback.; Likely owner: AP manager/change lead (proposed; confirm appointment). Evidence: L-C; Evidence needed: Staff feedback and role-change communication plan.\noperating ownership: Status: GAP; Strength: No assigned operating capability supplied.; Gap: Management explicitly confirms no owner or support rota.; Consequence: No accountable person may contain failure or sustain the service. Priority: P0; Action: Name an accountable business owner, agree support coverage and rehearse escalation.; Likely owner: Sponsor to nominate AP business owner; IT service lead for technical support (proposed; confirm appointment). Evidence: L-O, S1; Evidence needed: Accepted ownership map, support coverage and escalation test.",
+  "evidence": [
+    {
+      "claim": "L-L [leadership/sponsorship]: Owner is interested in AI but has assigned no sponsor or decision rights.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-L]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for leadership/sponsorship; status and consequences are analyst judgments. Verify with signed charter and decision-rights record."
+    },
+    {
+      "claim": "L-S [skills]: Clerks know local invoices; no integration engineer, AI evaluator or training capacity is assigned.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-S]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for skills; status and consequences are analyst judgments. Verify with training/evaluation results."
+    },
+    {
+      "claim": "L-W [workflow/process]: Reconciliation is handled through individual spreadsheets; no shared exception procedure or fallback coverage exists.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-W]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for workflow/process; status and consequences are analyst judgments. Verify with exception/fallback rehearsal and review-capacity evidence."
+    },
+    {
+      "claim": "L-D [infrastructure/data]: Records are scattered across email and spreadsheets; no common shipment identifiers, approved access route or test sample exists.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-D]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for infrastructure/data; status and consequences are analyst judgments. Verify with representative joined sample, provenance and access-test results."
+    },
+    {
+      "claim": "L-R [resources/budget]: No pilot budget, reviewer time or support funding is allocated.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-R]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for resources/budget; status and consequences are analyst judgments. Verify with approved staffing and recurring support allocation."
+    },
+    {
+      "claim": "L-G [governance/risk]: Human payments are intended but there is no defined tool permission model, audit process or incident response.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-G]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for governance/risk; status and consequences are analyst judgments. Verify with permission test, audit coverage and incident/stop drill."
+    },
+    {
+      "claim": "L-C [culture/change]: Staff have not been consulted; no change communication or feedback channel exists.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-C]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for culture/change; status and consequences are analyst judgments. Verify with staff feedback and role-change communication plan."
+    },
+    {
+      "claim": "L-O [operating ownership]: Management confirms no accountable application owner or support rota has been assigned.",
+      "source_or_reference": "cases/contrast_low_readiness.json capabilities_constraints [L-O]",
+      "date_or_recency": "Scenario assumptions dated 2026-11-09",
+      "evidence_type": "Supplied hypothetical test input, not an audited organization",
+      "notes": "Used for operating ownership; status and consequences are analyst judgments. Verify with accepted ownership map, support coverage and escalation test."
+    },
+    {
+      "claim": "S1: Documented responsibilities, training and executive accountability support AI risk management.",
+      "source_or_reference": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/ | GOVERN 2.1, 2.2, 2.3",
+      "date_or_recency": "2023; checked 2026-11-09",
+      "evidence_type": "Primary-source voluntary guidance",
+      "notes": "Voluntary guidance; not a readiness scoring system or proof of organization performance."
+    },
+    {
+      "claim": "S2: Restrict permissions, retain human approval for high-impact actions and enforce authorization downstream.",
+      "source_or_reference": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/ | Prevention strategies 4, 6 and 7",
+      "date_or_recency": "2025; checked 2026-11-09",
+      "evidence_type": "Primary-source voluntary guidance",
+      "notes": "Security guidance; does not establish this application is accurate or profitable."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "These are hypothetical educational profiles, not verified company observations.",
+    "Technology/application performance and value are unproven; a simpler rules-based/manual process may be preferable.",
+    "Positive readiness depends on controls actually working, not documentation alone.",
+    "Readiness thresholds and priorities are assignment-specific judgments, not a NIST certification or legal determination."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the conditional scenario classification; low confidence about any real organization without artifact verification. UNKNOWN is preserved as uncertainty, not a negative fact. No production or maturity rating is inferred.",
+  "value_opportunity_implication": "Potential reduction in reconciliation effort is a hypothesis; compare reviewer effort and errors against the existing process before claiming value.",
+  "risk_governance_implication": "Humans retain payment authority. Read-only tool permissions and authorization enforcement must be tested outside the model (S2); a prompt alone is not an access control. This specialist cannot authorize implementation, spending or payments.",
+  "recommendation_management_implication": "Do not begin a pilot. Rank 1 P0: owner assigns a sponsor and accountable AP owner with support coverage (L-L/L-O). Rank 2 P0: data lead or a scoped service partner establishes usable identifiers, approved access and a representative dataset (L-D). Rank 3 P0: controller/security lead establishes and tests authority, audit and stop controls (L-G). Before pilot also fund reviewer/support time, technical capability, training and shared exception/fallback processes (L-R/L-S/L-W). P1 consult staff and establish feedback during foundational preparation (L-C). Conditions to proceed: re-evaluate after evidence supports all eight dimensions; do not buy a particular platform merely to satisfy this framework. Conditions to pause: absent owner, resources or controls, or unresolved data access. Management retains all decisions and humans retain payment authority.",
+  "change_monitoring_triggers": [
+    "Reassess when ownership, staffing, data sources or permissions change.",
+    "Pause for unauthorized writes, unsupported record provenance, unresolved control failure or review overload.",
+    "Reassess before expansion using measured pilot errors, review effort, value and support capacity."
+  ],
+  "abstention_or_more_information_needed": [
+    "Who will accept the currently unassigned ownership and support responsibilities (L-O), with what authority and time?",
+    "What budget and staffing can management authorize for foundational work (L-R/L-S)? No amount or hiring feasibility was supplied.",
+    "Supply completed gap-closure evidence before reassessment; intended controls do not count as implemented controls."
+  ]
+}
