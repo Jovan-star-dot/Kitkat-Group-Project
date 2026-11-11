@@ -13,3 +13,7 @@ Limitations: hypothetical profiles, session model judgments, no real invoice ben
 
 ## Provenance and copy verification
 The KitKat team-branch folder is a synthesis-relevant copy, not a complete clone of the personal working package. See `package_manifest.json` and `COPY_VERIFICATION.md` for the verified source/team snapshots, copied-file inventory, and hash-comparison result. At the 2026-11-10 verification snapshots, all 18 files included in the team copy matched the corresponding personal-source Git blob SHA, while eight additional personal working/submission files were not copied. Therefore, complete package byte-identity is **not** claimed.
+
+
+## Team synthesis source acceptance
+Use `SOURCE_ACCEPTANCE.md` when the personal repository endpoint is unavailable to a reviewer. The KitKat branch copy is the inspected candidate source for synthesis. The historical personal commit remains part of the individual submission trace, while the package-level provenance record documents the verified copied-subset relationship without claiming complete-package byte identity.
