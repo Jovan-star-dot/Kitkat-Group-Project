@@ -69,3 +69,12 @@
 **Most important recommendation to the team**: Keep readiness separate from maturity. Resolve P-O ownership first, alongside P-D data and P-G controls. Use TEAM_HANDOFF.md intake fields. Self-Reflection and actual Brightspace rubric check remain required.
 
 **AI / verification note**: Codex drafted instructions, scenarios and session assessments, built packets and ran local checks. NIST and OWASP original pages were checked; profile facts remain hypothetical. No API or autonomous payment execution was used.
+
+
+## Team-copy provenance clarification
+
+The `ab2b883bd521eb7c57740ebc5e4fb343c63d6669` value above is the historical validated implementation commit recorded in the individual submission. It is retained for traceability and should not be treated as the only acceptable inspection endpoint for team synthesis.
+
+For Team Lab 8 synthesis, the KitKat branch copy is the inspected candidate source. On 2026-11-10, the copied Lab 7 files were compared against an authenticated personal-source snapshot using Git blob SHA values. All 18 files then present in the team synthesis copy matched their corresponding personal-source files; the personal working package contained eight additional files that had not been copied. Therefore the copied subset was verified identical at those snapshots, but complete-package byte identity was not claimed.
+
+See `../SOURCE_ACCEPTANCE.md`, `../COPY_VERIFICATION.md`, and `../package_manifest.json`. A reviewer who cannot access the personal repository should cite the KitKat branch copy as the inspected source and describe the personal-source relationship as provenance recorded by the package, not as independently re-verified by that reviewer.
