@@ -12,3 +12,7 @@ Start here. This specialist asks whether an organization can absorb, govern and 
 Runtime: interactive ChatGPT/Codex reasoning; standard-library Python builds prompts and checks saved outputs. No API key, model service or autonomous payment tool is included. Saved outputs are session-generated analyses, not outputs of a hidden deterministic classifier. Fresh model wording may differ.
 
 Only this agent folder is specialized; frozen core and tools are byte-identical to the uploaded ZIP. An external package README points here. Self-Reflection and the actual Brightspace rubric check are still required.
+
+
+## Provenance and copy verification
+The KitKat team-branch folder is a synthesis-relevant copy, not a complete clone of the personal working package. See `package_manifest.json` and `COPY_VERIFICATION.md` for the verified source/team snapshots, copied-file inventory, and hash-comparison result. At the 2026-11-10 verification snapshots, all 18 files included in the team copy matched the corresponding personal-source Git blob SHA, while eight additional personal working/submission files were not copied. Therefore, complete package byte-identity is **not** claimed.
