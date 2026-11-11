@@ -1,0 +1,112 @@
+{
+  "manifest_version": "1.0",
+  "created_date": "2026-11-10",
+  "agent": "Lab 7 Organizational Adoption Agent",
+  "source": {
+    "repository": "rap-hernando/MASY1800-Emerging-Technologies-Agents",
+    "branch": "lab7-organizational-adoption-agent",
+    "verified_snapshot_commit": "68f5d671dfc712f94d98f5febeb5a95e44f6446a",
+    "path": "agents/organizational_adoption_agent"
+  },
+  "team_copy": {
+    "repository": "Jovan-star-dot/Kitkat-Group-Project",
+    "branch": "raphael-synthesize-agent",
+    "verified_snapshot_commit": "f5b1637fa5402728b73435f5988edc489a656620",
+    "path": "team/team/agents/organizational_adoption_agent"
+  },
+  "verification": {
+    "method": "Git blob SHA comparison by relative path",
+    "status": "VERIFIED_IDENTICAL_COPIED_SUBSET",
+    "source_file_count": 26,
+    "team_file_count": 18,
+    "compared_file_count": 18,
+    "matching_file_count": 18,
+    "mismatching_file_count": 0,
+    "whole_package_byte_identical": false,
+    "statement": "All 18 files present in the team synthesis copy matched the corresponding personal-source Git blob SHA at the verified snapshots. The personal source contained 8 additional files that were not copied, so the two package trees are not byte-identical as complete packages."
+  },
+  "verified_copied_files": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "e90e171c47c3cb3eec877c773efb72ff2679e7ed"
+    },
+    {
+      "path": "TEAM_HANDOFF.md",
+      "git_blob_sha": "cc87feede72bbebdd3ce9c9fd07f3389e66e001d"
+    },
+    {
+      "path": "TESTING.md",
+      "git_blob_sha": "27923e5f8e2d9f6c03e888a326721b0f267cf297"
+    },
+    {
+      "path": "agent_metadata.json",
+      "git_blob_sha": "c45c4d8dff3e483776119b1914e94593ce8cebf8"
+    },
+    {
+      "path": "cases/contrast_high_readiness.json",
+      "git_blob_sha": "7c07985770d96a823ada2778ae89df3a3a0d1694"
+    },
+    {
+      "path": "cases/contrast_low_readiness.json",
+      "git_blob_sha": "05a3ae2a392aee77af1fa20be25ab5f7eedeff75"
+    },
+    {
+      "path": "cases/primary.json",
+      "git_blob_sha": "966ca97f83cff292153267fc7483f412cf1b7f99"
+    },
+    {
+      "path": "readiness_framework.md",
+      "git_blob_sha": "b0367ba58fcbde34e5487cdbfa01868d51f87b52"
+    },
+    {
+      "path": "records/agent_record.md",
+      "git_blob_sha": "5850a54328711270bd9a0a9d654aa7c2850472e3"
+    },
+    {
+      "path": "records/test_record.md",
+      "git_blob_sha": "7fb3254f3898fa63ca583c5ffe76c2374242bff9"
+    },
+    {
+      "path": "records/validation_log.txt",
+      "git_blob_sha": "e7abedd4cea23ce279ff6d64ed338237ee0dcd79"
+    },
+    {
+      "path": "records/weakness_v0.md",
+      "git_blob_sha": "389accc0d32861f60633aa1fc070a6ad760adc16"
+    },
+    {
+      "path": "responses/contrast_high_readiness_response.json",
+      "git_blob_sha": "3ddb39b6694c9aa79993fd6099936211d14d10fb"
+    },
+    {
+      "path": "responses/contrast_low_readiness_response.json",
+      "git_blob_sha": "a2bafab7a68e3a4a04d4c455cc46599051c955ad"
+    },
+    {
+      "path": "responses/primary_response.json",
+      "git_blob_sha": "389aee1b0ace33780fb77884a098a9c0917cf63d"
+    },
+    {
+      "path": "sources/VERIFICATION.md",
+      "git_blob_sha": "6efdb934ebd003e267f2b5d98db164befed153f9"
+    },
+    {
+      "path": "sources/source_ledger.json",
+      "git_blob_sha": "4e3e60908484babcec4046908017f942168b9fc6"
+    },
+    {
+      "path": "specialist_instructions.md",
+      "git_blob_sha": "aa0ca9f49f2a57b8e4172b26873bd5fda22a38e0"
+    }
+  ],
+  "source_only_files_not_in_team_copy": [
+    "VERSION_RECORD.json",
+    "prompts/contrast_high_readiness.txt",
+    "prompts/contrast_low_readiness.txt",
+    "prompts/primary.txt",
+    "records/Lab7_Organizational_Adoption_Agent_Record_Hernando.docx",
+    "records/document_qa.md",
+    "responses/.gitkeep",
+    "validate_lab7.py"
+  ]
+}
