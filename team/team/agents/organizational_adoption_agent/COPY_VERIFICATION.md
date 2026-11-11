@@ -40,3 +40,12 @@ Use:
 Do **not** say that the personal and team packages are byte-identical unless a future verification compares the complete package trees and confirms that statement.
 
 See `package_manifest.json` for the machine-readable inventory and provenance record.
+
+
+## Post-verification team documentation
+
+The 18-of-18 result above is a historical snapshot verification. After that comparison, the KitKat team package was retrofitted with additional provenance documentation and clarifying text, including `SOURCE_ACCEPTANCE.md`, a team-side `VERSION_RECORD.json`, and provenance notes in the README, handoff, and Agent Record.
+
+Those later documentation changes are intentionally **not** represented as a new claim that the current complete team tree is byte-identical to the personal repository. The verified fact remains narrower: at the recorded verification snapshots, every file then copied into the team synthesis subset matched its corresponding personal-source Git blob SHA.
+
+For current Team Lab 8 review, inspect the KitKat branch copy and use `SOURCE_ACCEPTANCE.md` to describe its provenance.
