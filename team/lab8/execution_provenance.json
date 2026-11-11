@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-10",
+  "timezone": "America/New_York",
+  "version": "1.0-team",
+  "base_commit": "a8eff803d2a8a7fee18a43316a8cf495ce8efbf7",
+  "mode": "Interactive same-conversation ChatGPT/Codex analysis; assistant-authored judgments serialized to frozen JSON",
+  "case_count": 5,
+  "responses_per_case": 1,
+  "independent_model_samples": false,
+  "separate_api_call": false,
+  "fresh_session_rerun": false,
+  "independent_human_rerun": false,
+  "same_assistant_designer_executor_reviewer": true,
+  "stable_text_reused_deliberately": true,
+  "serialization_script_is_inference_engine": false,
+  "real_company_connection": false,
+  "operational_trial": false,
+  "model_identifier": "not captured; exact backend model not asserted",
+  "source_verification": "Candidate files pinned; classroom handout and supplied records read. No current real regulatory/provider/market claim drives readiness; candidate reports are not independent verification.",
+  "artifact_manifest": "team/lab8/artifact_manifest.json",
+  "approval_source": "Team approval reported by Jovan Diaz; no invented signatures or workshop history."
+}

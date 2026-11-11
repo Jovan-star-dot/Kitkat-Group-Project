@@ -1,0 +1,86 @@
+{
+  "version": "1.0-team",
+  "status": "Team-approved authored operational rubric; not a certification or instructor-defined scoring threshold",
+  "dimensions": [
+    {
+      "id": "leadership_sponsorship",
+      "name": "Leadership and sponsorship",
+      "evidence_questions": "Accepted charter, outcome, sponsorship, decision rights and escalation support. A title or enthusiasm does not establish funding/access/launch authority."
+    },
+    {
+      "id": "skills_training",
+      "name": "Skills and training",
+      "evidence_questions": "Demonstrated operational, domain, evaluation, technical and incident competence with coverage for the stage. Assess supported internal or external capability rather than requiring an internal engineering team."
+    },
+    {
+      "id": "workflow_process",
+      "name": "Workflow and process",
+      "evidence_questions": "Reviewed procedures, baseline, responsibilities, handoffs, exceptions and fallback. A proposed application boundary or discussion invitation does not prove current workflow understanding."
+    },
+    {
+      "id": "infrastructure_data",
+      "name": "Infrastructure and data",
+      "evidence_questions": "Permitted usable records, identity/timestamp handling, representative quality checks, interfaces, access tests, logging and recovery. Neither engineers nor cloud/ERP ownership alone demonstrates this."
+    },
+    {
+      "id": "resources_budget",
+      "name": "Resources and budget",
+      "evidence_questions": "Authorized funding and staff time for integration, use, review, correction, monitoring, maintenance and contingency within the stage/horizon. Separate budget approval, authority evidence, new spending and production commitments."
+    },
+    {
+      "id": "governance_risk",
+      "name": "Governance and risk",
+      "evidence_questions": "Applicable approvals, enforced authority limits, rehearsed escalation, incident handling and stop responsibility appropriate to exposure. Review policy alone does not demonstrate control effectiveness."
+    },
+    {
+      "id": "culture_change",
+      "name": "Culture and change",
+      "evidence_questions": "Affected-user involvement, legitimate concerns, workload/incentive effects and feedback route. Do not assume acceptance, resistance or motives from size or posture."
+    },
+    {
+      "id": "operating_ownership",
+      "name": "Operating ownership",
+      "evidence_questions": "Accepted accountable business/service ownership, technical support, monitoring, incident/escalation coverage, maintenance and exit for the assessed stage. A project sponsor is not automatically the service owner."
+    }
+  ],
+  "dimension_ratings": [
+    "Ready for assessed stage",
+    "Partially ready",
+    "Not ready",
+    "Insufficient evidence to rate"
+  ],
+  "overall_labels": [
+    "Ready to proceed to the next management gate",
+    "Build readiness first",
+    "Not ready to proceed yet",
+    "Insufficient evidence to conclude"
+  ],
+  "aggregation": "No numeric composite, average or count-based cutoff. Explain materiality, consequence and dependencies. Critical blockers cannot be offset by unrelated strengths.",
+  "dimension_fields": [
+    "Status",
+    "Strength",
+    "Gap or unknown",
+    "Evidence and date",
+    "Consequence",
+    "Priority",
+    "Action or evidence request",
+    "Owner status and basis",
+    "Closure evidence",
+    "Stage affected"
+  ],
+  "priority_tiers": {
+    "P0": "A condition required before the requested stage; retain as blocking until evidenced.",
+    "P1": "Another material dependency with explicit stage/timing; all essential conditions still block.",
+    "P2": "Justified later improvement, not a generic checklist."
+  },
+  "ownership_statuses": [
+    "stated",
+    "inferred with case basis",
+    "proposed awaiting acceptance",
+    "unknown"
+  ],
+  "unknown_rule": "Do not convert absent evidence into confirmed absence. Report known blockers and unknowns together. A critical unknown blocks unconditional readiness for the affected stage; explain why lesser unknowns do or do not affect a narrower stage.",
+  "funding_rule": "Preserve stipulated budget approval as a distinct fact. Unknown approver identity/delegation evidence does not prove no budget. Request role, scope, limit and effective date before new spend/change/expansion. Disputed or unverified authorization leaves affected actions blocked.",
+  "stage_rule": "Critical controls must be demonstrated before exposure requiring them. A separately permitted offline rehearsal may investigate unproven controls with adequate containment and ownership. Preparation is not permission for live use. Pilot readiness is not production readiness.",
+  "output_contract": "Use unchanged frozen schemas; detailed fields are labeled text within existing string fields."
+}

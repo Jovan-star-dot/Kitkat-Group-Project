@@ -1,0 +1,78 @@
+[
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/README.md",
+    "sha256": "d2f213b7b2b1416a54e27dc79e3523b37c41b5f010384c6de053f034f02905a4"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/agent_metadata.json",
+    "sha256": "f66a17d974d4b7d8f1439293d7ac0c4a5d38a74cb6c7b7b181a7575d93220b6b"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/cases/contrast_1.json",
+    "sha256": "7380a345086e891aaa448315c15655fc79e47a40d2b0cef9595f4e6935f88e5f"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/cases/funding_authority.json",
+    "sha256": "fb7d5d3686b8fc45548fe146f046e8aa9c0aa58622ed349752e10503ca237edd"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/cases/missing_information.json",
+    "sha256": "a4490c1e8f1aeeff1f36bd9524db0a2a9cb8148b9165b4fdda20efb5bc5c45b8"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/cases/primary.json",
+    "sha256": "8a89b1ff07bd464950ccc3eb9a899760b582e0a52bf91af751f12e7598aa3354"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/cases/production_stage.json",
+    "sha256": "f3af8038dced18526e1904fae3148049529264ff0a5f2fd8708b63ab472cdda3"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/readiness_framework.json",
+    "sha256": "ceda02c64a8044d46ea5834e8778d8a4c09025868fb9cecb06f72d2e6ff31033"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/contrast_1_response.json",
+    "sha256": "7b5bedc9560abafa31ca2f47207a12fd8d51337b313bf9e1f4c81e7cef05b885"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/funding_authority_response.json",
+    "sha256": "b5a9bf177089f8b2342b021b4c230bbe17533f0f6e34ac7f710ddde465d19c51"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/missing_information_response.json",
+    "sha256": "64043b8c9bd744106402a2eb2202a11b2b52b1292234edaef4b95f8733cba7d5"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/primary_response.json",
+    "sha256": "028f9d1951ccb49cc46a7e4db9449b4b0629fed26a167b424ed3fc799680e39a"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/production_stage_response.json",
+    "sha256": "e90185c8a86455dbbb1334fe64a90692d73744a2946ff471a1e98cdcdb41c7ae"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/specialist_instructions.md",
+    "sha256": "7179b5063c029bf821afd6eb342b430a4717851be7132e381317fcc9e9189855"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_contrast_1_prompt.txt",
+    "sha256": "e76ecb79966e6e6f6241cf0546c08f8e2a0fed1bdca12704e19f1aa5880b618d"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_funding_authority_prompt.txt",
+    "sha256": "0e1eaebc63d35ccd8402c05b019b38cca8b8cb3e99473b08df10d123a5b15fc1"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_missing_information_prompt.txt",
+    "sha256": "efc2ac14bedbffdc3927443823db78d8eda6b36212fc0686a3c10dce5bb0c6b0"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_primary_prompt.txt",
+    "sha256": "22c3e877838960f44accfd511260bf1868ad9a7dad2db3f8b3c0ad4806a1fca6"
+  },
+  {
+    "path": "MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_production_stage_prompt.txt",
+    "sha256": "91f566e519037ee18ccc05f737faf93950a396e6406235cb7d9e5fd67cd37fe0"
+  }
+]

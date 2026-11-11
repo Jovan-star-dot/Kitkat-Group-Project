@@ -1,0 +1,770 @@
+[
+  {
+    "check": "input schema validation features fully supported by audit",
+    "passed": true
+  },
+  {
+    "check": "output schema validation features fully supported by audit",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py",
+    "passed": true
+  },
+  {
+    "check": "framework has eight distinct dimensions including operating ownership",
+    "passed": true
+  },
+  {
+    "check": "primary input and full frozen-schema output audit",
+    "passed": true
+  },
+  {
+    "check": "primary exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/primary_response.json",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/primary.json",
+    "passed": true
+  },
+  {
+    "check": "primary full saved prompt rebuilds identically",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Leadership and sponsorship",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Skills and training",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Workflow and process",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Infrastructure and data",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Resources and budget",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Governance and risk",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Culture and change",
+    "passed": true
+  },
+  {
+    "check": "primary dimension label Operating ownership",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Status text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Strength text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Gap or unknown text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Evidence and date text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Consequence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Priority text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Action or evidence request text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Owner status and basis text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Closure evidence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary field label in each dimension Stage affected text coverage only",
+    "passed": true
+  },
+  {
+    "check": "primary all supplied dimension evidence IDs traced",
+    "passed": true
+  },
+  {
+    "check": "primary shared technical assumption plus eight dimension references",
+    "passed": true
+  },
+  {
+    "check": "primary triggers questions and contrary interpretation populated",
+    "passed": true
+  },
+  {
+    "check": "primary no template placeholders",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 input and full frozen-schema output audit",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/contrast_1_response.json",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/contrast_1.json",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 full saved prompt rebuilds identically",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Leadership and sponsorship",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Skills and training",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Workflow and process",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Infrastructure and data",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Resources and budget",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Governance and risk",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Culture and change",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 dimension label Operating ownership",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Status text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Strength text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Gap or unknown text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Evidence and date text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Consequence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Priority text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Action or evidence request text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Owner status and basis text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Closure evidence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 field label in each dimension Stage affected text coverage only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 all supplied dimension evidence IDs traced",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 shared technical assumption plus eight dimension references",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 triggers questions and contrary interpretation populated",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 no template placeholders",
+    "passed": true
+  },
+  {
+    "check": "missing_information input and full frozen-schema output audit",
+    "passed": true
+  },
+  {
+    "check": "missing_information exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/missing_information_response.json",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/missing_information.json",
+    "passed": true
+  },
+  {
+    "check": "missing_information full saved prompt rebuilds identically",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Leadership and sponsorship",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Skills and training",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Workflow and process",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Infrastructure and data",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Resources and budget",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Governance and risk",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Culture and change",
+    "passed": true
+  },
+  {
+    "check": "missing_information dimension label Operating ownership",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Status text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Strength text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Gap or unknown text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Evidence and date text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Consequence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Priority text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Action or evidence request text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Owner status and basis text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Closure evidence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information field label in each dimension Stage affected text coverage only",
+    "passed": true
+  },
+  {
+    "check": "missing_information all supplied dimension evidence IDs traced",
+    "passed": true
+  },
+  {
+    "check": "missing_information shared technical assumption plus eight dimension references",
+    "passed": true
+  },
+  {
+    "check": "missing_information triggers questions and contrary interpretation populated",
+    "passed": true
+  },
+  {
+    "check": "missing_information no template placeholders",
+    "passed": true
+  },
+  {
+    "check": "production_stage input and full frozen-schema output audit",
+    "passed": true
+  },
+  {
+    "check": "production_stage exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/production_stage_response.json",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/production_stage.json",
+    "passed": true
+  },
+  {
+    "check": "production_stage full saved prompt rebuilds identically",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Leadership and sponsorship",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Skills and training",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Workflow and process",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Infrastructure and data",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Resources and budget",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Governance and risk",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Culture and change",
+    "passed": true
+  },
+  {
+    "check": "production_stage dimension label Operating ownership",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Status text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Strength text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Gap or unknown text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Evidence and date text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Consequence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Priority text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Action or evidence request text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Owner status and basis text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Closure evidence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage field label in each dimension Stage affected text coverage only",
+    "passed": true
+  },
+  {
+    "check": "production_stage all supplied dimension evidence IDs traced",
+    "passed": true
+  },
+  {
+    "check": "production_stage shared technical assumption plus eight dimension references",
+    "passed": true
+  },
+  {
+    "check": "production_stage triggers questions and contrary interpretation populated",
+    "passed": true
+  },
+  {
+    "check": "production_stage no template placeholders",
+    "passed": true
+  },
+  {
+    "check": "funding_authority input and full frozen-schema output audit",
+    "passed": true
+  },
+  {
+    "check": "funding_authority exact permitted top-level fields",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/funding_authority_response.json",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/funding_authority.json",
+    "passed": true
+  },
+  {
+    "check": "funding_authority full saved prompt rebuilds identically",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Leadership and sponsorship",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Skills and training",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Workflow and process",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Infrastructure and data",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Resources and budget",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Governance and risk",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Culture and change",
+    "passed": true
+  },
+  {
+    "check": "funding_authority dimension label Operating ownership",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Status text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Strength text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Gap or unknown text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Evidence and date text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Consequence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Priority text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Action or evidence request text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Owner status and basis text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Closure evidence text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority field label in each dimension Stage affected text coverage only",
+    "passed": true
+  },
+  {
+    "check": "funding_authority all supplied dimension evidence IDs traced",
+    "passed": true
+  },
+  {
+    "check": "funding_authority shared technical assumption plus eight dimension references",
+    "passed": true
+  },
+  {
+    "check": "funding_authority triggers questions and contrary interpretation populated",
+    "passed": true
+  },
+  {
+    "check": "funding_authority no template placeholders",
+    "passed": true
+  },
+  {
+    "check": "main contrast changes organization and organizational evidence only",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 unchanged technical_assumption",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 unchanged application_authority",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 unchanged evidence_basis",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 deliberately stable saved general_et_finding",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 deliberately stable saved application_finding",
+    "passed": true
+  },
+  {
+    "check": "missing_information unchanged technical_assumption",
+    "passed": true
+  },
+  {
+    "check": "missing_information unchanged application_authority",
+    "passed": true
+  },
+  {
+    "check": "missing_information unchanged evidence_basis",
+    "passed": true
+  },
+  {
+    "check": "missing_information deliberately stable saved general_et_finding",
+    "passed": true
+  },
+  {
+    "check": "missing_information deliberately stable saved application_finding",
+    "passed": true
+  },
+  {
+    "check": "production_stage unchanged technical_assumption",
+    "passed": true
+  },
+  {
+    "check": "production_stage unchanged application_authority",
+    "passed": true
+  },
+  {
+    "check": "production_stage unchanged evidence_basis",
+    "passed": true
+  },
+  {
+    "check": "production_stage deliberately stable saved general_et_finding",
+    "passed": true
+  },
+  {
+    "check": "production_stage deliberately stable saved application_finding",
+    "passed": true
+  },
+  {
+    "check": "funding_authority unchanged technical_assumption",
+    "passed": true
+  },
+  {
+    "check": "funding_authority unchanged application_authority",
+    "passed": true
+  },
+  {
+    "check": "funding_authority unchanged evidence_basis",
+    "passed": true
+  },
+  {
+    "check": "funding_authority deliberately stable saved general_et_finding",
+    "passed": true
+  },
+  {
+    "check": "funding_authority deliberately stable saved application_finding",
+    "passed": true
+  },
+  {
+    "check": "missing_information only evidence/stage packet changes",
+    "passed": true
+  },
+  {
+    "check": "production_stage only evidence/stage packet changes",
+    "passed": true
+  },
+  {
+    "check": "funding_authority only evidence/stage packet changes",
+    "passed": true
+  },
+  {
+    "check": "qualified case isolates missing owner evidence",
+    "passed": true
+  },
+  {
+    "check": "stage case changes requested stage only",
+    "passed": true
+  },
+  {
+    "check": "funding case changes resources evidence only",
+    "passed": true
+  },
+  {
+    "check": "primary saved finding matches recorded qualitative self-review",
+    "passed": true
+  },
+  {
+    "check": "contrast_1 saved finding matches recorded qualitative self-review",
+    "passed": true
+  },
+  {
+    "check": "missing_information saved finding matches recorded qualitative self-review",
+    "passed": true
+  },
+  {
+    "check": "production_stage saved finding matches recorded qualitative self-review",
+    "passed": true
+  },
+  {
+    "check": "funding_authority saved finding matches recorded qualitative self-review",
+    "passed": true
+  },
+  {
+    "check": "missing owner evidence not recorded as confirmed absence",
+    "passed": true
+  },
+  {
+    "check": "approved-budget fact preserved in funding analysis",
+    "passed": true
+  },
+  {
+    "check": "readiness not equated with value",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py team/lab8/preserved_weakness/negative_extra_readiness.json",
+    "passed": true
+  },
+  {
+    "check": "extra readiness field rejected by full schema despite basic validator acceptance",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 1 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py team/lab8/preserved_weakness/negative_wrong_type.json",
+    "passed": true
+  },
+  {
+    "check": "object substituted for required readiness string rejected by full schema",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/jie.md",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/jie_framework.md",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/jie_record.txt",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/jovan.md",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/jovan_framework.md",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/jovan_record.txt",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/karoline.md",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/karoline_record.txt",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/muhammad.md",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/muhammad_record.txt",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/raphael.md",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/raphael_record.txt",
+    "passed": true
+  },
+  {
+    "check": "source snapshot digest team/lab8/lineage/raphael_test.md",
+    "passed": true
+  },
+  {
+    "check": "command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py",
+    "passed": true
+  }
+]

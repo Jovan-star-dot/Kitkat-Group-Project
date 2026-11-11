@@ -1,0 +1,74 @@
+[
+  {
+    "id": "jovan",
+    "repository": "Jovan-star-dot/Individual-Lab-Emerging-Tech",
+    "commit": "bd4f9c41b5e2f69be0aaeb05c79e191cd776a4cb",
+    "path": "agents/organizational_adoption_agent/specialist_instructions.md",
+    "original_blob_sha": "84a872b0d473dd7f83820c684cafc9d41f1ca903",
+    "snapshot": "team/lab8/lineage/jovan.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  },
+  {
+    "id": "jovan_framework",
+    "repository": "Jovan-star-dot/Individual-Lab-Emerging-Tech",
+    "commit": "bd4f9c41b5e2f69be0aaeb05c79e191cd776a4cb",
+    "path": "agents/organizational_adoption_agent/organizational_readiness_framework.md",
+    "original_blob_sha": "1f67e10a3b4ac75df6c45b58a2e9bd9a20a2b8d4",
+    "snapshot": "team/lab8/lineage/jovan_framework.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  },
+  {
+    "id": "jie",
+    "repository": "chictofu/JZ-MASY1800-Emerging-Technologies-Agents",
+    "commit": "19b549f0699096a224b5d38d5045c3308dd696da",
+    "path": "agents/organization_adoption_agent/specialist_instructions.md",
+    "original_blob_sha": "849a5606c4b0aa27284754b5fb251e8a2a298e8d",
+    "snapshot": "team/lab8/lineage/jie.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  },
+  {
+    "id": "jie_framework",
+    "repository": "chictofu/JZ-MASY1800-Emerging-Technologies-Agents",
+    "commit": "19b549f0699096a224b5d38d5045c3308dd696da",
+    "path": "agents/organization_adoption_agent/readiness_framework.json",
+    "original_blob_sha": "6142181f1f698442191db7432fd79cb246125c34",
+    "snapshot": "team/lab8/lineage/jie_framework.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  },
+  {
+    "id": "karoline",
+    "repository": "kh4214/MASY1800-ET-Agent-Lab",
+    "commit": "199b9c8c9b9932011e217774972316d9a1ce62b4",
+    "path": "agents/organizational_adoption_agent/specialist_instructions.md",
+    "original_blob_sha": "01c310b0b541a9273d119dfc7eb67b7b4fdc5671",
+    "snapshot": "team/lab8/lineage/karoline.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  },
+  {
+    "id": "muhammad",
+    "repository": "arsyuber/EmergingTech",
+    "commit": "a95b2b9db414afcf8f70d0fa5ae51beab724396d",
+    "path": "org_adoption_agent/specialist_instructions.md",
+    "original_blob_sha": "b515d473bfe841b0987ac1613c469c714e73e37b",
+    "snapshot": "team/lab8/lineage/muhammad.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  },
+  {
+    "id": "raphael",
+    "repository": "Jovan-star-dot/Kitkat-Group-Project",
+    "commit": "f5b1637fa5402728b73435f5988edc489a656620",
+    "path": "team/team/agents/organizational_adoption_agent/specialist_instructions.md",
+    "original_blob_sha": "aa0ca9f49f2a57b8e4172b26873bd5fda22a38e0",
+    "snapshot": "team/lab8/lineage/raphael.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  },
+  {
+    "id": "raphael_test",
+    "repository": "Jovan-star-dot/Kitkat-Group-Project",
+    "commit": "f5b1637fa5402728b73435f5988edc489a656620",
+    "path": "team/team/agents/organizational_adoption_agent/records/test_record.md",
+    "original_blob_sha": "7fb3254f3898fa63ca583c5ffe76c2374242bff9",
+    "snapshot": "team/lab8/lineage/raphael_test.md",
+    "note": "UTF-8 text snapshot; commit and original blob SHA identify source bytes."
+  }
+]

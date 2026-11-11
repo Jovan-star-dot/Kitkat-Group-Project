@@ -1,0 +1,194 @@
+PASS input schema validation features fully supported by audit
+PASS output schema validation features fully supported by audit
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py
+PASS framework has eight distinct dimensions including operating ownership
+PASS primary input and full frozen-schema output audit
+PASS primary exact permitted top-level fields
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/primary_response.json
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/primary.json
+PASS primary full saved prompt rebuilds identically
+PASS primary dimension label Leadership and sponsorship
+PASS primary dimension label Skills and training
+PASS primary dimension label Workflow and process
+PASS primary dimension label Infrastructure and data
+PASS primary dimension label Resources and budget
+PASS primary dimension label Governance and risk
+PASS primary dimension label Culture and change
+PASS primary dimension label Operating ownership
+PASS primary field label in each dimension Status text coverage only
+PASS primary field label in each dimension Strength text coverage only
+PASS primary field label in each dimension Gap or unknown text coverage only
+PASS primary field label in each dimension Evidence and date text coverage only
+PASS primary field label in each dimension Consequence text coverage only
+PASS primary field label in each dimension Priority text coverage only
+PASS primary field label in each dimension Action or evidence request text coverage only
+PASS primary field label in each dimension Owner status and basis text coverage only
+PASS primary field label in each dimension Closure evidence text coverage only
+PASS primary field label in each dimension Stage affected text coverage only
+PASS primary all supplied dimension evidence IDs traced
+PASS primary shared technical assumption plus eight dimension references
+PASS primary triggers questions and contrary interpretation populated
+PASS primary no template placeholders
+PASS contrast_1 input and full frozen-schema output audit
+PASS contrast_1 exact permitted top-level fields
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/contrast_1_response.json
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/contrast_1.json
+PASS contrast_1 full saved prompt rebuilds identically
+PASS contrast_1 dimension label Leadership and sponsorship
+PASS contrast_1 dimension label Skills and training
+PASS contrast_1 dimension label Workflow and process
+PASS contrast_1 dimension label Infrastructure and data
+PASS contrast_1 dimension label Resources and budget
+PASS contrast_1 dimension label Governance and risk
+PASS contrast_1 dimension label Culture and change
+PASS contrast_1 dimension label Operating ownership
+PASS contrast_1 field label in each dimension Status text coverage only
+PASS contrast_1 field label in each dimension Strength text coverage only
+PASS contrast_1 field label in each dimension Gap or unknown text coverage only
+PASS contrast_1 field label in each dimension Evidence and date text coverage only
+PASS contrast_1 field label in each dimension Consequence text coverage only
+PASS contrast_1 field label in each dimension Priority text coverage only
+PASS contrast_1 field label in each dimension Action or evidence request text coverage only
+PASS contrast_1 field label in each dimension Owner status and basis text coverage only
+PASS contrast_1 field label in each dimension Closure evidence text coverage only
+PASS contrast_1 field label in each dimension Stage affected text coverage only
+PASS contrast_1 all supplied dimension evidence IDs traced
+PASS contrast_1 shared technical assumption plus eight dimension references
+PASS contrast_1 triggers questions and contrary interpretation populated
+PASS contrast_1 no template placeholders
+PASS missing_information input and full frozen-schema output audit
+PASS missing_information exact permitted top-level fields
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/missing_information_response.json
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/missing_information.json
+PASS missing_information full saved prompt rebuilds identically
+PASS missing_information dimension label Leadership and sponsorship
+PASS missing_information dimension label Skills and training
+PASS missing_information dimension label Workflow and process
+PASS missing_information dimension label Infrastructure and data
+PASS missing_information dimension label Resources and budget
+PASS missing_information dimension label Governance and risk
+PASS missing_information dimension label Culture and change
+PASS missing_information dimension label Operating ownership
+PASS missing_information field label in each dimension Status text coverage only
+PASS missing_information field label in each dimension Strength text coverage only
+PASS missing_information field label in each dimension Gap or unknown text coverage only
+PASS missing_information field label in each dimension Evidence and date text coverage only
+PASS missing_information field label in each dimension Consequence text coverage only
+PASS missing_information field label in each dimension Priority text coverage only
+PASS missing_information field label in each dimension Action or evidence request text coverage only
+PASS missing_information field label in each dimension Owner status and basis text coverage only
+PASS missing_information field label in each dimension Closure evidence text coverage only
+PASS missing_information field label in each dimension Stage affected text coverage only
+PASS missing_information all supplied dimension evidence IDs traced
+PASS missing_information shared technical assumption plus eight dimension references
+PASS missing_information triggers questions and contrary interpretation populated
+PASS missing_information no template placeholders
+PASS production_stage input and full frozen-schema output audit
+PASS production_stage exact permitted top-level fields
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/production_stage_response.json
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/production_stage.json
+PASS production_stage full saved prompt rebuilds identically
+PASS production_stage dimension label Leadership and sponsorship
+PASS production_stage dimension label Skills and training
+PASS production_stage dimension label Workflow and process
+PASS production_stage dimension label Infrastructure and data
+PASS production_stage dimension label Resources and budget
+PASS production_stage dimension label Governance and risk
+PASS production_stage dimension label Culture and change
+PASS production_stage dimension label Operating ownership
+PASS production_stage field label in each dimension Status text coverage only
+PASS production_stage field label in each dimension Strength text coverage only
+PASS production_stage field label in each dimension Gap or unknown text coverage only
+PASS production_stage field label in each dimension Evidence and date text coverage only
+PASS production_stage field label in each dimension Consequence text coverage only
+PASS production_stage field label in each dimension Priority text coverage only
+PASS production_stage field label in each dimension Action or evidence request text coverage only
+PASS production_stage field label in each dimension Owner status and basis text coverage only
+PASS production_stage field label in each dimension Closure evidence text coverage only
+PASS production_stage field label in each dimension Stage affected text coverage only
+PASS production_stage all supplied dimension evidence IDs traced
+PASS production_stage shared technical assumption plus eight dimension references
+PASS production_stage triggers questions and contrary interpretation populated
+PASS production_stage no template placeholders
+PASS funding_authority input and full frozen-schema output audit
+PASS funding_authority exact permitted top-level fields
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/funding_authority_response.json
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py --agent agents/organizational_adoption_agent --case agents/organizational_adoption_agent/cases/funding_authority.json
+PASS funding_authority full saved prompt rebuilds identically
+PASS funding_authority dimension label Leadership and sponsorship
+PASS funding_authority dimension label Skills and training
+PASS funding_authority dimension label Workflow and process
+PASS funding_authority dimension label Infrastructure and data
+PASS funding_authority dimension label Resources and budget
+PASS funding_authority dimension label Governance and risk
+PASS funding_authority dimension label Culture and change
+PASS funding_authority dimension label Operating ownership
+PASS funding_authority field label in each dimension Status text coverage only
+PASS funding_authority field label in each dimension Strength text coverage only
+PASS funding_authority field label in each dimension Gap or unknown text coverage only
+PASS funding_authority field label in each dimension Evidence and date text coverage only
+PASS funding_authority field label in each dimension Consequence text coverage only
+PASS funding_authority field label in each dimension Priority text coverage only
+PASS funding_authority field label in each dimension Action or evidence request text coverage only
+PASS funding_authority field label in each dimension Owner status and basis text coverage only
+PASS funding_authority field label in each dimension Closure evidence text coverage only
+PASS funding_authority field label in each dimension Stage affected text coverage only
+PASS funding_authority all supplied dimension evidence IDs traced
+PASS funding_authority shared technical assumption plus eight dimension references
+PASS funding_authority triggers questions and contrary interpretation populated
+PASS funding_authority no template placeholders
+PASS main contrast changes organization and organizational evidence only
+PASS contrast_1 unchanged technical_assumption
+PASS contrast_1 unchanged application_authority
+PASS contrast_1 unchanged evidence_basis
+PASS contrast_1 deliberately stable saved general_et_finding
+PASS contrast_1 deliberately stable saved application_finding
+PASS missing_information unchanged technical_assumption
+PASS missing_information unchanged application_authority
+PASS missing_information unchanged evidence_basis
+PASS missing_information deliberately stable saved general_et_finding
+PASS missing_information deliberately stable saved application_finding
+PASS production_stage unchanged technical_assumption
+PASS production_stage unchanged application_authority
+PASS production_stage unchanged evidence_basis
+PASS production_stage deliberately stable saved general_et_finding
+PASS production_stage deliberately stable saved application_finding
+PASS funding_authority unchanged technical_assumption
+PASS funding_authority unchanged application_authority
+PASS funding_authority unchanged evidence_basis
+PASS funding_authority deliberately stable saved general_et_finding
+PASS funding_authority deliberately stable saved application_finding
+PASS missing_information only evidence/stage packet changes
+PASS production_stage only evidence/stage packet changes
+PASS funding_authority only evidence/stage packet changes
+PASS qualified case isolates missing owner evidence
+PASS stage case changes requested stage only
+PASS funding case changes resources evidence only
+PASS primary saved finding matches recorded qualitative self-review
+PASS contrast_1 saved finding matches recorded qualitative self-review
+PASS missing_information saved finding matches recorded qualitative self-review
+PASS production_stage saved finding matches recorded qualitative self-review
+PASS funding_authority saved finding matches recorded qualitative self-review
+PASS missing owner evidence not recorded as confirmed absence
+PASS approved-budget fact preserved in funding analysis
+PASS readiness not equated with value
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py team/lab8/preserved_weakness/negative_extra_readiness.json
+PASS extra readiness field rejected by full schema despite basic validator acceptance
+PASS command expected exit 1 MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py team/lab8/preserved_weakness/negative_wrong_type.json
+PASS object substituted for required readiness string rejected by full schema
+PASS source snapshot digest team/lab8/lineage/jie.md
+PASS source snapshot digest team/lab8/lineage/jie_framework.md
+PASS source snapshot digest team/lab8/lineage/jie_record.txt
+PASS source snapshot digest team/lab8/lineage/jovan.md
+PASS source snapshot digest team/lab8/lineage/jovan_framework.md
+PASS source snapshot digest team/lab8/lineage/jovan_record.txt
+PASS source snapshot digest team/lab8/lineage/karoline.md
+PASS source snapshot digest team/lab8/lineage/karoline_record.txt
+PASS source snapshot digest team/lab8/lineage/muhammad.md
+PASS source snapshot digest team/lab8/lineage/muhammad_record.txt
+PASS source snapshot digest team/lab8/lineage/raphael.md
+PASS source snapshot digest team/lab8/lineage/raphael_record.txt
+PASS source snapshot digest team/lab8/lineage/raphael_test.md
+PASS command expected exit 0 MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py
+ALL SAVED-ARTIFACT CHECKS PASSED: 192 assertions; 5 official positive validators; 5 full input/output audits; frozen core intact.
+Two constructed negative controls correctly rejected by full schema. No independent inference or operating-readiness certification.

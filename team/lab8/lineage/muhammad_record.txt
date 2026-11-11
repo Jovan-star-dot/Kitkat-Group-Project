@@ -1,0 +1,44 @@
+EMERGING TECHNOLOGIES
+Specialist Agent Record – Lab 7
+MASY1-GC 1800 | Assignments 2-8
+Complete this record from the evidence in your working scaffold. Keep it concise. The record documents what you specialized, how you tested it, what failed or changed, and what professional judgment you reached.
+A. Agent and Version
+Field | Student record
+Student / team | Muhammad Arsy Uber
+Assignment / specialist agent | Assignment 7 - Organizational Adoption Agent
+Date | November 7, 2026
+GitHub repository | https://github.com/arsyuber/EmergingTech
+Branch | Lab-7
+Commit | a95b2b9
+Frozen scaffold version | MASY1800_ET_Agent_Scaffold_v1_0
+B. Specialist Purpose and Context
+Field | Student record
+Governing analytical question | Even if adoption is strategically appropriate, can this organization actually absorb, govern, and sustain the proposed application?
+Emerging technology | Agentic AI and Foundation Models
+Intended application | Autonomous PMO, Business Analysis, and Regulatory Reconciliation
+Organization / industry | Bank Rakyat Indonesia NY Agency / Corporate Banking
+Adoption posture | Conservative / risk-averse
+Risk / consequence context | High regulatory risk
+Management question / time horizon | Are we structurally and culturally ready? Next 12 months.
+C. Three-Level Finding
+Field | Student record
+ET generally | Capable of workflow orchestration, but requires documented processes, validated data, and continuous operational support.
+ET for this application | Plausible for PMO reporting, but autonomous regulatory reconciliation is too high-risk without strict deterministic boundaries.
+ET for this application in this organization | NOT READY. The bank lacks an AI engineering team, has undocumented manual workflows, and limited API funding.
+Bounded management implication | Do not deploy. Execute prioritized readiness actions: designate an executive sponsor, document the manual PMO workflows, and secure an operating budget.
+Confidence / uncertainty | Moderate confidence that the documented capability baseline is insufficient. Low confidence in the exact budget required.
+What evidence or condition would change the conclusion | Formal documentation of PMO workflows, secured funding for API integration, and designation of an accountable AI technical owner.
+D. Evidence and Testing
+Field | Student record
+Most important evidence/source(s) | NIST AI Risk Management Framework (AI RMF 1.0)
+Primary test - result | Passed. The agent correctly identified the conservative bank was not ready due to legacy infrastructure and missing AI skills.
+Contrast test - what appropriately stayed stable | The General ET Finding (that Agentic AI requires governed data and strict permissions to run reliably).
+Contrast test - what appropriately changed | The specific critical gaps changed. The bank failed on engineering skills and legacy tech, while the aggressive NeoBank failed on compliance governance and sustainable budget. Both were deemed unready, but for entirely different structural reasons.
+Weakness/failure found | Over-Focus on Engineering over Data. The agent praised the NeoBank for having "highly skilled AI engineers" but failed to emphasize that their undocumented, chaotic processes mean their data is likely too unstructured for those engineers to actually build reliable AI.
+Revision made and why | Added a v0.2 rule instructing the agent not to conflate "having engineers" with "technical readiness" if the underlying business processes and data are undocumented and chaotic.
+Remaining limitation / abstention condition | Abstains from judging financial readiness until an approved, costed operating budget (including long-term maintenance) is provided.
+E. Independent Judgment and Handoff
+Field | Student record
+Is the agent credible enough for team consideration? Why? | Yes. It successfully separated the strategic value of the technology from the ground-level execution capability of the organization.
+Most important recommendation to the team | A good technology choice can still fail if the organization cannot absorb it. We must fix our undocumented manual workflows before we attempt to automate them with AI.
+AI / verification note | Used ChatGPT to contrast the legacy bank against the aggressive NeoBank. Verified the NIST AI RMF guidelines to ensure the agent's governance recommendations aligned with recognized risk frameworks.

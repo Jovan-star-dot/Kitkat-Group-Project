@@ -1,0 +1,37 @@
+EMERGING TECHNOLOGIES
+Specialist Agent Record
+MASY1-GC 1800 | Week 9 | Assignment 7
+This record documents the Organizational Adoption Agent, its readiness framework, primary and contrast profiles, missing-information test, revision, and judgment.
+A. Agent and Version
+Field | Student record
+Student / team | Jovan Diaz / Individual Assignment
+Assignment / specialist agent | Assignment 7 / Organizational Adoption of Emerging Technologies Agent
+Date | October 6, 2026
+GitHub repository / branch | https://github.com/Jovan-star-dot/Individual-Lab-Emerging-Tech / week-9-assignment-7-organizational-adoption
+Record update commit | bd4f9c41b5e2f69be0aaeb05c79e191cd776a4cb
+B. Specialist Purpose and Context
+Field | Student record
+Governing analytical question | Even if adoption is strategically appropriate, can this organization absorb, govern, and sustain the proposed application?
+Emerging technology / application | Agentic AI for bounded routine e-commerce customer-service requests with human escalation
+Readiness dimensions | Leadership, skills, workflow, infrastructure/data, resources, governance/risk, culture/change, and operating ownership
+Organization profiles | Digitally capable retailer; legacy retailer; missing-information case
+Operational labels | Ready to proceed to next gate, Build readiness first, Not ready to proceed yet, or Insufficient evidence to conclude
+C. Three-Level Finding
+Field | Student record
+ET generally | No independent technology-maturity finding is made because the cases supply no performance evidence.
+ET for this application | The proposed task boundary and escalation rule do not prove technical capability or application fit.
+ET for this application in this organization | Primary digitally capable retailer: Build readiness first. Legacy retailer: Not ready to proceed yet. Missing-information case: Insufficient evidence to conclude.
+Most consequential readiness gap | The primary case lacks an accountable post-test operating owner and continuing funding. Unknown is kept distinct from Not ready.
+D. Evidence and Testing
+Field | Student record
+Most important evidence | Hypothetical case assumptions: sponsor, evaluation funding, test environment, interfaces, data steward, supervisors, legacy-system constraints, undocumented workflows, and ownership gaps.
+Primary, contrast, and missing-information tests | General technology and application findings stayed stable. Readiness changed with sponsorship, systems, workflows, controls, resources, ownership, and evidence availability.
+Weakness and revision | The first primary response rated workflow Partially ready because it treated a proposed boundary and consultation invitation as workflow evidence. Revision changed the rating to Insufficient evidence and requested actual routine/exception documentation.
+Validation | Primary, contrast, and missing-information responses passed validation. Frozen core remained intact; no core or schema files changed.
+Remaining limitation | All profiles are hypothetical; no selected system, measured benefits, or verified organizational facts are supplied.
+E. Independent Judgment and Handoff
+Field | Student record
+Independent judgment | The most consequential primary gap is the missing accountable operating owner. I would reconsider after clear ownership, continuing resources, assessed controls, and reviewed workflows are demonstrated.
+Team handoff | The final system must capture sponsor, workflow, skills, data, controls, resources, culture, ownership, consequences, evidence status, and explicit Unknown values.
+F. Self Reflection
+This assignment clarified the difference between choosing an attractive application and being ready to operate it. My first primary response rated workflow readiness too generously because it treated a proposed task boundary and an invitation to discuss exceptions as evidence that current routines were understood. The revision made me request evidence about actual handoffs, responsibilities, exception procedures, and review status. The contrast cases showed that readiness can fall because of undocumented interfaces, missing controls, unassigned ownership, or uncommitted resources even when the technology and application remain unchanged. I learned to treat unknown information as unknown, ask for the evidence needed to rate readiness, and identify the accountable operating owner as a condition for sustaining the work.

@@ -1,0 +1,183 @@
+[
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "FROZEN CORE INTACT\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/primary_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/organizational_adoption_agent",
+      "--case",
+      "agents/organizational_adoption_agent/cases/primary.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab8/MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_primary_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/contrast_1_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/organizational_adoption_agent",
+      "--case",
+      "agents/organizational_adoption_agent/cases/contrast_1.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab8/MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_contrast_1_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/missing_information_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/organizational_adoption_agent",
+      "--case",
+      "agents/organizational_adoption_agent/cases/missing_information.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab8/MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_missing_information_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/production_stage_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/organizational_adoption_agent",
+      "--case",
+      "agents/organizational_adoption_agent/cases/production_stage.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab8/MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_production_stage_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/responses/funding_authority_response.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "--agent",
+      "agents/organizational_adoption_agent",
+      "--case",
+      "agents/organizational_adoption_agent/cases/funding_authority.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "/workspace/scratch/16e40e3f838c/kitkat_lab8/MASY1800_ET_Agent_Scaffold_v1_0/work/organizational_adoption_agent_funding_authority_prompt.txt\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "team/lab8/preserved_weakness/negative_extra_readiness.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "team/lab8/preserved_weakness/negative_wrong_type.json"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "VALIDATION FAILED\n- organization_specific_finding must be a string\n",
+    "stderr": "",
+    "exit_code": 1,
+    "expected_exit": 1
+  },
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py"
+    ],
+    "cwd": "/workspace/scratch/16e40e3f838c/kitkat_lab8",
+    "stdout": "FROZEN CORE INTACT\n",
+    "stderr": "",
+    "exit_code": 0,
+    "expected_exit": 0
+  }
+]

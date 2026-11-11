@@ -1,0 +1,87 @@
+[
+  {
+    "case": "primary",
+    "readiness": "Ready to proceed to the next management gate",
+    "stage": "bounded four-week pilot",
+    "decisive_gap": "No material unmet pilot requirement is evidenced in this stipulated profile; absence of production evidence is not a defect in pilot readiness.",
+    "dimension_ratings": {
+      "leadership_sponsorship": "Ready for assessed stage",
+      "skills_training": "Ready for assessed stage",
+      "workflow_process": "Ready for assessed stage",
+      "infrastructure_data": "Ready for assessed stage",
+      "resources_budget": "Ready for assessed stage",
+      "governance_risk": "Ready for assessed stage",
+      "culture_change": "Ready for assessed stage",
+      "operating_ownership": "Ready for assessed stage"
+    },
+    "reviewer": "same preparing assistant; qualitative self-review, not independent grading"
+  },
+  {
+    "case": "contrast_1",
+    "readiness": "Not ready to proceed yet",
+    "stage": "bounded four-week pilot",
+    "decisive_gap": "Explicitly unassigned operating ownership (B-O) leaves accountability unsupported; unapproved access (B-D), uncommitted resources (B-R) and absent approval/control responsibilities (B-G) are independent blockers, not tradeoffs erased by sponsor interest.",
+    "dimension_ratings": {
+      "leadership_sponsorship": "Partially ready",
+      "skills_training": "Insufficient evidence to rate",
+      "workflow_process": "Insufficient evidence to rate",
+      "infrastructure_data": "Not ready",
+      "resources_budget": "Not ready",
+      "governance_risk": "Not ready",
+      "culture_change": "Insufficient evidence to rate",
+      "operating_ownership": "Not ready"
+    },
+    "reviewer": "same preparing assistant; qualitative self-review, not independent grading"
+  },
+  {
+    "case": "missing_information",
+    "readiness": "Insufficient evidence to conclude",
+    "stage": "bounded four-week pilot",
+    "decisive_gap": "C-O lacks accepted operating ownership/support evidence. This critical unknown blocks unconditional pilot readiness but is not proof that ownership is absent.",
+    "dimension_ratings": {
+      "leadership_sponsorship": "Ready for assessed stage",
+      "skills_training": "Ready for assessed stage",
+      "workflow_process": "Ready for assessed stage",
+      "infrastructure_data": "Ready for assessed stage",
+      "resources_budget": "Ready for assessed stage",
+      "governance_risk": "Ready for assessed stage",
+      "culture_change": "Ready for assessed stage",
+      "operating_ownership": "Insufficient evidence to rate"
+    },
+    "reviewer": "same preparing assistant; qualitative self-review, not independent grading"
+  },
+  {
+    "case": "production_stage",
+    "readiness": "Insufficient evidence to conclude",
+    "stage": "sustained production after the pilot",
+    "decisive_gap": "Evidence A-L through A-O covers a four-week pilot, not sustained production. Continuing service ownership/support and resources are the most consequential unknowns; production rights and control/workload evidence are also unresolved.",
+    "dimension_ratings": {
+      "leadership_sponsorship": "Insufficient evidence to rate",
+      "skills_training": "Insufficient evidence to rate",
+      "workflow_process": "Insufficient evidence to rate",
+      "infrastructure_data": "Insufficient evidence to rate",
+      "resources_budget": "Insufficient evidence to rate",
+      "governance_risk": "Insufficient evidence to rate",
+      "culture_change": "Insufficient evidence to rate",
+      "operating_ownership": "Insufficient evidence to rate"
+    },
+    "reviewer": "same preparing assistant; qualitative self-review, not independent grading"
+  },
+  {
+    "case": "funding_authority",
+    "readiness": "Ready to proceed to the next management gate",
+    "stage": "bounded four-week pilot",
+    "decisive_gap": "Funding authority documentation is unknown under E-R, while the pilot budget and reviewer/support allocation remain explicitly approved. Readiness relies on that fictional approval stipulation and does not certify spending powers.",
+    "dimension_ratings": {
+      "leadership_sponsorship": "Ready for assessed stage",
+      "skills_training": "Ready for assessed stage",
+      "workflow_process": "Ready for assessed stage",
+      "infrastructure_data": "Ready for assessed stage",
+      "resources_budget": "Ready for assessed stage",
+      "governance_risk": "Ready for assessed stage",
+      "culture_change": "Ready for assessed stage",
+      "operating_ownership": "Ready for assessed stage"
+    },
+    "reviewer": "same preparing assistant; qualitative self-review, not independent grading"
+  }
+]

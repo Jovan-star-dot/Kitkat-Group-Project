@@ -1,7 +1,7 @@
 # KitKat Agent Inventory
 
 Seven slots reserved for course specialists.
-Slots 1 through 5 are the team-approved Creation, Innovation Classification, Promethean Classification, Diffusion and Adoption specialists. Slots 6 and 7 remain reserved.
+Slots 1 through 6 are the team-approved Creation, Innovation Classification, Promethean Classification, Diffusion, Adoption and Organizational Adoption specialists. Slot 7 remains reserved.
 
 | Slot | Specialist | Contributor | Version/commit | Evidence location | Validation | Reviewer | Approval |
 |---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Slots 1 through 5 are the team-approved Creation, Innovation Classification, Pro
 | 3 | Promethean Classification Agent | Five source designs; Karoline structure; Jovan integration coordination | 1.0-team; containing Lab 5 implementation release | team/lab5/ | Four common saved outputs validated; frozen core intact; same-assistant review limits recorded | ChatGPT/Codex technical checks; full-group approval and Karoline confirmation reported by Jovan | Team-approved October 20, 2026; no meaningful disagreements; team/lab5/acceptance_record.md |
 | 4 | Emerging Technology Diffusion Agent | Five candidate designs; Jovan customer-service base; Jie evidence controls | 1.0-team; containing Lab 6 implementation commit | team/lab6/ | Four common case analyses saved; validator/schema audits passed; frozen core intact; deliberate same-assistant reuse disclosed | ChatGPT/Codex artifact checks and self-review; team draft approval reported by Jovan | Team-approved draft October 27, 2026; team/lab6/acceptance_record.md |
 | 5 | Emerging Technology Adoption Agent | Five candidate designs; Jovan customer-service scope; Jie policy; shared controls | 1.0-team; containing Lab 7 implementation release | team/lab7/ | Seven saved analyses validated; full schema and frozen core checks passed; same-assistant limits recorded | ChatGPT/Codex artifact checks and self-review; unanimous draft approval reported by Jovan | Team-approved draft November 3, 2026; team/lab7/acceptance_record.md |
-| 6 | Pending | Unassigned | Pending | Pending | Not tested | Unassigned | Not reviewed |
+| 6 | Organizational Adoption of Emerging Technologies Agent | Five source designs; Jovan context; Jie gap/action structure; shared stage and evidence controls | 1.0-team; containing Lab 8 implementation release | team/lab8/ | Five saved analyses; official/schema audits and frozen-core checks passed; 192 artifact assertions; same-assistant limits recorded | ChatGPT/Codex artifact checks and qualitative self-review; team design approval reported by Jovan | Team-approved design November 10, 2026; team/lab8/acceptance_record.md |
 | 7 | Pending | Unassigned | Pending | Pending | Not tested | Unassigned | Not reviewed |
 
 For each candidate, also record its source path, remaining limitations,
@@ -31,3 +31,6 @@ Factor requirements, lineage, case analyses, approval, preserved limitation and 
 
 Adoption location: MASY1800_ET_Agent_Scaffold_v1_0/agents/adoption_agent/.
 Policy, five-source lineage, seven cases, qualified response, approval, preserved contrary judgment and execution limits: team/lab7/.
+
+Organizational Adoption location: MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/.
+Framework, intake, five-source lineage, five cases, qualified findings, approval and execution limits: team/lab8/.

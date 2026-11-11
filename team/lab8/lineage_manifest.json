@@ -1,0 +1,54 @@
+[
+  {
+    "path": "team/lab8/lineage/jie.md",
+    "sha256": "9f416f122a22c6c0567601574fe06e52b5180b11f8838555d1ac8047bd7dbaa9"
+  },
+  {
+    "path": "team/lab8/lineage/jie_framework.md",
+    "sha256": "426f617beeb9e87755776b8522daa229e855673a8fe45537b4c21da4c639584b"
+  },
+  {
+    "path": "team/lab8/lineage/jie_record.txt",
+    "sha256": "164d3c54989e9a3c8f6889763d6102efe6ee07e71d2064e771a20f76cc791e5b"
+  },
+  {
+    "path": "team/lab8/lineage/jovan.md",
+    "sha256": "3fdaa4e79f707982179b3d0512852fd36c138d52c92a9474e858e94806686fa7"
+  },
+  {
+    "path": "team/lab8/lineage/jovan_framework.md",
+    "sha256": "6c4ac9a547ce5f3ed32282429263dde017630616964f37dcba76dc2f81aae9ba"
+  },
+  {
+    "path": "team/lab8/lineage/jovan_record.txt",
+    "sha256": "6ebc46402979deae2785e72801b1afa7861918631246a562f4cbd9ff5a24b14f"
+  },
+  {
+    "path": "team/lab8/lineage/karoline.md",
+    "sha256": "ca905bf0e1c2415941ac894abed51ad46f9533ba81ba8057d8337e8db96f7136"
+  },
+  {
+    "path": "team/lab8/lineage/karoline_record.txt",
+    "sha256": "87f2695069c51f22191888309f7f1dc039f0b04d8a9eb0d96ff45053ec1bf502"
+  },
+  {
+    "path": "team/lab8/lineage/muhammad.md",
+    "sha256": "35bcf9f70a17bcd6ef985b1922afd0881009f38b85ca00f942fffa026a10093b"
+  },
+  {
+    "path": "team/lab8/lineage/muhammad_record.txt",
+    "sha256": "d09a4f9d7acabbd3fe6f302a11e8ce6a35336eb79c63f33d5133a850e9aa46bf"
+  },
+  {
+    "path": "team/lab8/lineage/raphael.md",
+    "sha256": "4a16efd30550a8bf2a61858abf2d07001c3abb9934f67cfc1952cf1d04da359e"
+  },
+  {
+    "path": "team/lab8/lineage/raphael_record.txt",
+    "sha256": "e266493cb8bb41f72404c38a040580dc65cc4d426f416333b69d26172fad4ca2"
+  },
+  {
+    "path": "team/lab8/lineage/raphael_test.md",
+    "sha256": "a3f827dbd09c32a242f1febceb7d9e150a1122a7c5af9dbdcdbe6225105af88c"
+  }
+]

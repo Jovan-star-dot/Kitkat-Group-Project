@@ -1,0 +1,2 @@
+FROZEN CORE INTACT
+exit_code=0

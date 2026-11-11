@@ -1,0 +1,44 @@
+EMERGING TECHNOLOGIES
+Organizational Adoption Agent Record
+MASY1-GC 1800 | Assignments 2-8
+Complete this record from the evidence in your working scaffold. Keep it concise. The record documents what you specialized, how you tested it, what failed or changed, and what professional judgment you reached.
+A. Agent and Version
+Field | Student record
+Student / team | Karoline He
+Assignment / specialist agent | Assignment 7 - Organizational Adoption Agent
+Date | October 30, 2026
+GitHub repository | kh4214/MASY1800-ET-Agent-Lab
+Branch | assignment7-organizational-adoption
+Commit | 199b9c8c9b9932011e217774972316d9a1ce62b4 (tested agent package)
+Frozen scaffold version | MASY1800_ET_Agent_Scaffold_v1_0
+B. Specialist Purpose and Context
+Field | Student record
+Governing analytical question | Even if adoption is strategically appropriate, can this organization absorb, govern, and sustain the proposed application?
+Emerging technology | Generative AI using a large language model
+Intended application | First-line SaaS customer-support automation, with human escalation for consequential inquiries.
+Organization / industry | Primary: early-stage B2B SaaS startup. Contrast: larger established B2B SaaS organization. Both are course scenarios.
+Adoption posture | Startup: possible limited pilot. Contrast: controlled staged evaluation; neither case is approved for scale.
+Risk / consequence context | Inaccurate responses may mislead customers or mishandle account, security, billing, or contractual inquiries.
+Management question / time horizon | Is the organization ready, what is the consequential gap, and what must change before the next adoption stage? Startup: next 3 months; contrast: next 3-6 months.
+C. Three-Level Finding
+Field | Student record
+ET generally | Chapter 8 treats LLM-based generative AI as leading edge for most business applications, while warning that maturity is application- and organization-specific. The saved runs use that course framework and do not claim provider-specific performance evidence.
+ET for this application | Customer-support automation can be explored in a bounded low-consequence setting, but requires a relevant support baseline and tested human escalation for consequential inquiries.
+ET for this application in this organization | Startup: readiness-building before a pilot; baseline, escalation design, accountable owner, governance process, and operating capacity are missing. Contrast: conditional low-consequence pilot; governance and ownership are stated, but controls are not proven. Neither is scale-ready.
+Bounded management implication | Startup: establish stage gates before launch. Contrast: run a constrained pilot with defined scope, escalation, baseline, stop conditions, and governance review; expand only after evidence shows controls work.
+Confidence / uncertainty | Moderate confidence in stage recommendations from case assumptions. Low confidence in provider-specific privacy, security, legal, data, and production-control adequacy.
+What evidence or condition would change the conclusion | Support-quality baseline; tested escalation; named accountable owner; staffing/monitoring capacity; provider/data controls; and pilot evidence that controls work.
+D. Evidence and Testing
+Field | Student record
+Most important evidence/source(s) | Course case inputs; Assignment 7 brief; textbook Chapters 8-9. Chapter 8 supports contextual maturity and organization-specific readiness; source claims beyond the scenarios were not independently verified.
+Primary test - result | Final `primary_response.json`: readiness-building before a customer-facing pilot. Most consequential gap: no demonstrated controlled-learning environment.
+Contrast test - what appropriately stayed stable | Both final outputs separate maturity from readiness, require a support baseline and human escalation, avoid scale-up, and request provider/control evidence.
+Contrast test - what appropriately changed | Startup: readiness-building. Established SaaS organization: conditional low-consequence pilot because stated governance and operational ownership clear more stage gates.
+Weakness/failure found | Initial outputs gave both organizations a conditional-pilot action, underweighting the startup's missing baseline, owner, escalation design, and capacity.
+Revision made and why | Added a stage-gate rule: baseline, accountable owner, bounded scope, escalation/control design, and observation capacity are minimum prerequisites for a meaningful pilot. Rerun produced context-sensitive actions.
+Remaining limitation / abstention condition | Case facts are assumptions. Request current support metrics, ticket classification, escalation-test evidence, named owner/capacity, provider/data terms, controls, and approval criteria. Chapter 9 ECTM is reserved for a scale-use-case decision, with evidence-based ratings rather than invented scores.
+E. Independent Judgment and Handoff
+Field | Student record
+Is the agent credible enough for team consideration? Why? | Yes, as a bounded readiness specialist: it preserves the Frozen Core, applies eight dimensions, separates maturity/application/readiness, requests missing evidence, and passed the local validator on initial and revised primary/contrast responses.
+Most important recommendation to the team | Explore early when feasible, adopt when justified, and scale only when the organization is ready. For this case, do not confuse a safe pilot with scale readiness; treat baseline, escalation, ownership, and monitoring as adoption-stage gates.
+AI / verification note | Codex structured the agent, generated and saved packet-context responses, identified the initial contrast weakness, revised the stage gate, and ran the local validator and Frozen Core check. Chapters 8-9 informed the maturity/readiness and ECTM instructions. No provider-specific claim was presented as verified without source evidence.

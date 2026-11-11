@@ -1,0 +1,3 @@
+EXTRA FIELD EXPECTED REJECTION: ('$', 'prohibited extra field')
+WRONG TYPE EXPECTED REJECTION: ('$.organization_specific_finding', 'wrong type')
+Both negative controls passed. These are deliberately constructed fixtures.
