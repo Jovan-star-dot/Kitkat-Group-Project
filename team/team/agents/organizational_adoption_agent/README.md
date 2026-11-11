@@ -16,3 +16,7 @@ Only this agent folder is specialized; frozen core and tools are byte-identical 
 
 ## Provenance and copy verification
 The KitKat team-branch folder is a synthesis-relevant copy, not a complete clone of the personal working package. See `package_manifest.json` and `COPY_VERIFICATION.md` for the verified source/team snapshots, copied-file inventory, and hash-comparison result. At the 2026-11-10 verification snapshots, all 18 files included in the team copy matched the corresponding personal-source Git blob SHA, while eight additional personal working/submission files were not copied. Therefore, complete package byte-identity is **not** claimed.
+
+
+## Team synthesis source basis
+For Team Lab 8 source acceptance, use `SOURCE_ACCEPTANCE.md` first. It explains the role of the historical personal commit, identifies the KitKat branch copy as the inspected candidate source, and states the limits of the recorded copy verification.
