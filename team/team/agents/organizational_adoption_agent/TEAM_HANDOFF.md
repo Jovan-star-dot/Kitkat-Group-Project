@@ -9,3 +9,7 @@ Intake must capture sponsor/decision rights; staff expertise and training eviden
 Integration: preserve all 14 common fields. Readiness details are labeled text inside organization_specific_finding; do not assume a new JSON key exists. Application fit stays in application_finding. Preserve UNKNOWN and information requests. Do not translate NOT READY into low technology maturity or READY FOR BOUNDED PILOT into production approval. The final synthesis must reconcile this perspective with value, technology maturity, diffusion and risk specialists; management retains decisions. No payment authority is delegated.
 
 Limitations: hypothetical profiles, session model judgments, no real invoice benchmark, no audit of internal artifacts, no production validation, no legal opinion. Test cases show context sensitivity, not general reliability. Self-Reflection and actual Brightspace rubric verification remain open.
+
+
+## Provenance and copy verification
+The KitKat team-branch folder is a synthesis-relevant copy, not a complete clone of the personal working package. See `package_manifest.json` and `COPY_VERIFICATION.md` for the verified source/team snapshots, copied-file inventory, and hash-comparison result. At the 2026-11-10 verification snapshots, all 18 files included in the team copy matched the corresponding personal-source Git blob SHA, while eight additional personal working/submission files were not copied. Therefore, complete package byte-identity is **not** claimed.
