@@ -1,15 +1,22 @@
 {
-  "manifest_version": "1.0",
+  "manifest_version": "1.1",
   "created_date": "2026-11-16",
   "agent": "Lab 8 Emerging Technology Landscape Agent",
   "source": {
     "repository": "rap-hernando/MASY1800-Emerging-Technologies-Agents",
     "branch": "assignment-8-landscape-agent",
     "path": "agents/landscape_agent",
-    "validated_source_commit": "3522754d4407754399f36dd34670fe817480f06b"
+    "validated_source_commit": "3522754d4407754399f36dd34670fe817480f06b",
+    "snapshot_commit": "a65a3c25352bb5e2565dd6220eefb9a34b14991c"
   },
   "team_copy": {
-    "status": "NOT_YET_COPIED_OR_VERIFIED"
+    "status": "VERIFIED_COPIED_SUBSET",
+    "repository": "Jovan-star-dot/Kitkat-Group-Project",
+    "branch": "raphael-synthesize-agent",
+    "path": "team/team/agents/landscape_agent",
+    "base_commit": "6769a01e95d7cc1eb3471cdfb209e4a4ed0391ff",
+    "snapshot_commit": "c66f0127a64239f4edd76a52f4f472fddbe89138",
+    "snapshot_definition": "Exact-copy commit before team-specific provenance updates. The subsequent documentation commit changes only package_manifest.json and COPY_VERIFICATION.md; its SHA is intentionally not self-embedded."
   },
   "verification": {
     "frozen_core": "PASS",
@@ -18,8 +25,161 @@
       "contrast_1": "PASS",
       "contrast_2": "PASS"
     },
-    "cross_repo_copy_verification": "PENDING"
+    "cross_repo_copy_verification": "PASS: 23/23 Git blob SHAs and file modes match at the recorded copy snapshot",
+    "method": "GitHub Git trees at immutable commits; compare Git blob SHA and mode for each mapped relative path",
+    "files": [
+      {
+        "path": "COPY_VERIFICATION.md",
+        "source_blob_sha": "df2bf407e3b4d42a04fe0fdfa410eda82bdabbfc",
+        "team_blob_sha": "df2bf407e3b4d42a04fe0fdfa410eda82bdabbfc",
+        "match": true
+      },
+      {
+        "path": "README.md",
+        "source_blob_sha": "6939567eec94355b32bacd37256a2ab5ddeef1b8",
+        "team_blob_sha": "6939567eec94355b32bacd37256a2ab5ddeef1b8",
+        "match": true
+      },
+      {
+        "path": "SOURCE_ACCEPTANCE.md",
+        "source_blob_sha": "a57a529fa5e5ca7e7cf9011c2d0c6374d9a96d29",
+        "team_blob_sha": "a57a529fa5e5ca7e7cf9011c2d0c6374d9a96d29",
+        "match": true
+      },
+      {
+        "path": "TEAM_HANDOFF.md",
+        "source_blob_sha": "45cb9eb81060141ea9c945c91af0d4205d7bf317",
+        "team_blob_sha": "45cb9eb81060141ea9c945c91af0d4205d7bf317",
+        "match": true
+      },
+      {
+        "path": "TESTING.md",
+        "source_blob_sha": "328067ba38a5e56af00427d01a5c1963b68b4e00",
+        "team_blob_sha": "328067ba38a5e56af00427d01a5c1963b68b4e00",
+        "match": true
+      },
+      {
+        "path": "VERSION_RECORD.json",
+        "source_blob_sha": "9f761090d4dcc350f1819735a8b8b3b899ed4432",
+        "team_blob_sha": "9f761090d4dcc350f1819735a8b8b3b899ed4432",
+        "match": true
+      },
+      {
+        "path": "agent_metadata.json",
+        "source_blob_sha": "0ffd3837e1b68c119051612ef03d818b865ac83d",
+        "team_blob_sha": "0ffd3837e1b68c119051612ef03d818b865ac83d",
+        "match": true
+      },
+      {
+        "path": "cases/contrast_1.json",
+        "source_blob_sha": "f2ffb57c39a6d97464ee7f35ee0664ab14f20cbc",
+        "team_blob_sha": "f2ffb57c39a6d97464ee7f35ee0664ab14f20cbc",
+        "match": true
+      },
+      {
+        "path": "cases/contrast_2.json",
+        "source_blob_sha": "64e53ecb30693ad9514bf086b256c49070c17c15",
+        "team_blob_sha": "64e53ecb30693ad9514bf086b256c49070c17c15",
+        "match": true
+      },
+      {
+        "path": "cases/primary.json",
+        "source_blob_sha": "2306f1e49d491ee07622f20a09fa4e079384bfc4",
+        "team_blob_sha": "2306f1e49d491ee07622f20a09fa4e079384bfc4",
+        "match": true
+      },
+      {
+        "path": "landscape_framework.md",
+        "source_blob_sha": "f7557969bdeab5c2b334ff253a00010c19798b34",
+        "team_blob_sha": "f7557969bdeab5c2b334ff253a00010c19798b34",
+        "match": true
+      },
+      {
+        "path": "landscape_radar.md",
+        "source_blob_sha": "5738148aa5b62f816b0e5557b6ee4ef3ed5d6a5c",
+        "team_blob_sha": "5738148aa5b62f816b0e5557b6ee4ef3ed5d6a5c",
+        "match": true
+      },
+      {
+        "path": "package_manifest.json",
+        "source_blob_sha": "6dfc0534f6662cfe6d116eb3346d456adf06244d",
+        "team_blob_sha": "6dfc0534f6662cfe6d116eb3346d456adf06244d",
+        "match": true
+      },
+      {
+        "path": "records/agent_record.md",
+        "source_blob_sha": "8a8cd9703a86f9c70afc96864ba9bd63704344c3",
+        "team_blob_sha": "8a8cd9703a86f9c70afc96864ba9bd63704344c3",
+        "match": true
+      },
+      {
+        "path": "records/test_record.md",
+        "source_blob_sha": "e5d685922193070944a79a1039ce39bd361faa0e",
+        "team_blob_sha": "e5d685922193070944a79a1039ce39bd361faa0e",
+        "match": true
+      },
+      {
+        "path": "records/validation_log.txt",
+        "source_blob_sha": "c4c55daaa9e7063fd0cd55b9445464dda78a8dbe",
+        "team_blob_sha": "c4c55daaa9e7063fd0cd55b9445464dda78a8dbe",
+        "match": true
+      },
+      {
+        "path": "records/weakness_v0.md",
+        "source_blob_sha": "d16ced83ac50f46f399ca647e4ca924e72543ada",
+        "team_blob_sha": "d16ced83ac50f46f399ca647e4ca924e72543ada",
+        "match": true
+      },
+      {
+        "path": "responses/contrast_1_response.json",
+        "source_blob_sha": "e1c149c8110e8e3913dc609a5d4d117e9fc64d8b",
+        "team_blob_sha": "e1c149c8110e8e3913dc609a5d4d117e9fc64d8b",
+        "match": true
+      },
+      {
+        "path": "responses/contrast_2_response.json",
+        "source_blob_sha": "e9ba94c9564a4e75d3b16a7bfff60abebe8dccea",
+        "team_blob_sha": "e9ba94c9564a4e75d3b16a7bfff60abebe8dccea",
+        "match": true
+      },
+      {
+        "path": "responses/primary_response.json",
+        "source_blob_sha": "4bfce9ec8f7f6bdeef91614d443d46ebdac6b91b",
+        "team_blob_sha": "4bfce9ec8f7f6bdeef91614d443d46ebdac6b91b",
+        "match": true
+      },
+      {
+        "path": "sources/VERIFICATION.md",
+        "source_blob_sha": "7104dcdce6f5f8512698a743cf7ebd3d19559807",
+        "team_blob_sha": "7104dcdce6f5f8512698a743cf7ebd3d19559807",
+        "match": true
+      },
+      {
+        "path": "sources/source_ledger.json",
+        "source_blob_sha": "9c9357a5ef11568de5a15233c4e115bfb616d26a",
+        "team_blob_sha": "9c9357a5ef11568de5a15233c4e115bfb616d26a",
+        "match": true
+      },
+      {
+        "path": "specialist_instructions.md",
+        "source_blob_sha": "9197face1a8414bad675951ac90b55d246b45b82",
+        "team_blob_sha": "9197face1a8414bad675951ac90b55d246b45b82",
+        "match": true
+      }
+    ],
+    "final_copy_identity": {
+      "unchanged_source_files": 21,
+      "intentionally_modified_files": [
+        "package_manifest.json",
+        "COPY_VERIFICATION.md"
+      ],
+      "whole_package_identity": false
+    },
+    "source_only_within_specialist_directory": [],
+    "team_only_within_specialist_directory": [],
+    "outside_destination_changes": 0,
+    "validation_scope": "Frozen-core and response-schema PASS values are inherited source validation records, not newly executed tests. This operation verifies copy integrity."
   },
   "evidence_as_of": "2026-11-16",
-  "notes": "Do not claim team-copy identity until a separate hash comparison is recorded."
+  "notes": "All 23 files in the personal specialist directory were copied. At the recorded exact-copy snapshot, all 23 are byte-identical by Git blob SHA. After this provenance update, 21 remain source-identical and two are intentionally team-specific. This is copied-specialist-subset identity, not whole-repository or distributable-package identity. Source scaffold/core/tools/docs and other repository files were not copied; existing team files were preserved. No temporary workflow files were added."
 }
