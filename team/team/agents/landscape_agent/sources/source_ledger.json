@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-11-16",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Stanford HAI 2026 AI Index — Economy",
+      "date": "2026",
+      "source_type": "independent/academic",
+      "scope": "technology-general / agentic-AI-specific",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy",
+      "claim": "Organizational AI adoption reached 88% in 2025 while AI-agent deployment remained in the single digits across nearly all business functions.",
+      "use": "Base-rate control: broad AI adoption cannot stand in for agentic-AI maturity."
+    },
+    {
+      "id": "S2",
+      "title": "McKinsey — The state of AI in 2026: On the road to ROI",
+      "date": "2026-08-25",
+      "source_type": "industry/consulting",
+      "scope": "agentic-AI-specific",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "claim": "40% of respondents at organizations above $1B revenue reported scaling AI agents, versus 22% at smaller organizations.",
+      "use": "Shows agent scaling is increasing but uneven by organization size; survey evidence is directional."
+    },
+    {
+      "id": "S3",
+      "title": "Model Context Protocol — 2026-07-28 Specification",
+      "date": "2026-07-28",
+      "source_type": "standards/regulatory",
+      "scope": "agentic-AI-specific / complementary infrastructure",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "claim": "The July 2026 MCP release introduced a stateless core, authorization hardening, formal extensions and updated SDKs.",
+      "use": "Interoperability/tool-connectivity ecosystem is maturing; does not prove application reliability."
+    },
+    {
+      "id": "S4",
+      "title": "Linux Foundation — A2A Protocol one-year adoption update",
+      "date": "2026-04-09",
+      "source_type": "standards/regulatory",
+      "scope": "agentic-AI-specific / complementary infrastructure",
+      "url": "https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year",
+      "claim": "A2A reported support from more than 150 organizations and production deployments across multiple industries.",
+      "use": "Evidence that agent-to-agent interoperability is becoming an enterprise ecosystem signal."
+    },
+    {
+      "id": "S5",
+      "title": "DHL Group Q3 2026 Roadshow Presentation — Shipment Booking & Enrichment",
+      "date": "2026-11",
+      "source_type": "vendor/operator",
+      "scope": "industry-specific / application-analogue",
+      "url": "https://group.dhl.com/content/dam/deutschepostdhl/de/media-center/investors/documents/presentations/2026/DHL-Group-Q3-2026-Roadshow-Presentation.pdf",
+      "claim": "DHL reports agentic data extraction/system integration for 2.5M annual air/ocean freight booking requests, human-in-loop validation, and a 40% productivity gain.",
+      "use": "Strong logistics production analogue; not evidence that autonomous freight-invoice payment approval is mainstream."
+    },
+    {
+      "id": "S6",
+      "title": "DHL Logistics Trend Radar 8.0 — Agentic AI",
+      "date": "2026",
+      "source_type": "vendor/operator",
+      "scope": "industry-specific",
+      "url": "https://www.dhl.com/us-en/home/innovation-in-logistics/logistics-trend-radar/agentic-ai.html",
+      "claim": "DHL classifies Agentic AI as high impact with adoption under five years and describes early logistics implementations moving beyond pilots into production.",
+      "use": "Operator foresight and examples; treat forecasts as directional and hype-sensitive."
+    },
+    {
+      "id": "S7",
+      "title": "DHL Logistics Trend Radar 8.0 press release",
+      "date": "2026-09-24",
+      "source_type": "vendor/operator",
+      "scope": "industry-specific",
+      "url": "https://group.dhl.com/en/media-relations/press-releases/2026/ai-takes-action-while-people-remain-at-the-center-of-logistics-finds-dhl-logistics-trend-radar.html",
+      "claim": "DHL identifies Agentic AI as one of the most impactful new logistics trends and emphasizes human expertise and governance alongside autonomy.",
+      "use": "Supports logistics relevance, not market-wide maturity."
+    }
+  ]
+}

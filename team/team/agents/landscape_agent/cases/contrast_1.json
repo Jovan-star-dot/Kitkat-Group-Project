@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based agentic AI that plans multi-step work, calls tools/APIs, observes results, and iterates with bounded human oversight.",
+  "intended_application": "Marketing research and content workflow: gather campaign inputs, draft social/event concepts, compare variants, and route outputs for human review.",
+  "organization": "Small marketing agency (~40 employees).",
+  "industry_sector": "Marketing and creative services.",
+  "business_need": "Increase research/drafting throughput and campaign iteration speed.",
+  "users_stakeholders": "Strategists, copywriters, account managers, clients.",
+  "adoption_posture": "Aggressive / early adopter for low-consequence, reversible workflows.",
+  "capabilities_constraints": "Cloud SaaS stack; limited engineering staff; strong human creative review; low integration burden.",
+  "risk_consequence_context": "Poor output can create brand/reputation risk but is normally reversible before publication; no financial transaction authority.",
+  "management_question": "Which agentic-AI landscape signals and alternatives matter most for low-consequence marketing workflow automation, and what should the agency monitor next?",
+  "time_horizon": "6-12 months; refresh quarterly.",
+  "additional_context": "Contrast: same ET, different application and lower consequence. Relevant alternatives should shift toward standard LLM assistants and marketing automation rather than AP workflow tools."
+}

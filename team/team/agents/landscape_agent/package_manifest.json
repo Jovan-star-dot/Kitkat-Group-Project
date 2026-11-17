@@ -1,0 +1,25 @@
+{
+  "manifest_version": "1.0",
+  "created_date": "2026-11-16",
+  "agent": "Lab 8 Emerging Technology Landscape Agent",
+  "source": {
+    "repository": "rap-hernando/MASY1800-Emerging-Technologies-Agents",
+    "branch": "assignment-8-landscape-agent",
+    "path": "agents/landscape_agent",
+    "validated_source_commit": "3522754d4407754399f36dd34670fe817480f06b"
+  },
+  "team_copy": {
+    "status": "NOT_YET_COPIED_OR_VERIFIED"
+  },
+  "verification": {
+    "frozen_core": "PASS",
+    "response_schema_validation": {
+      "primary": "PASS",
+      "contrast_1": "PASS",
+      "contrast_2": "PASS"
+    },
+    "cross_repo_copy_verification": "PENDING"
+  },
+  "evidence_as_of": "2026-11-16",
+  "notes": "Do not claim team-copy identity until a separate hash comparison is recorded."
+}

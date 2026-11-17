@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based agentic AI that plans multi-step work, calls tools/APIs, observes results, and iterates with bounded human oversight.",
+  "intended_application": "Freight-invoice reconciliation: retrieve invoice, shipment, rate/contract and exception data; compare records; flag discrepancies; draft a recommendation. Human reviewers retain payment authority.",
+  "organization": "Mid-sized third-party logistics provider (~800 employees) with ERP/TMS systems.",
+  "industry_sector": "Third-party logistics / freight operations.",
+  "business_need": "Reduce manual reconciliation effort and exception-cycle time without weakening payment controls.",
+  "users_stakeholders": "Accounts payable, freight audit, operations, data/IT, controller, security/risk, carriers.",
+  "adoption_posture": "Moderate / fast-follower; prefers bounded, auditable pilots before broader authority.",
+  "capabilities_constraints": "ERP/TMS available; moderate integration capability; data quality and record linkage are material; payment controls require auditability; limited tolerance for opaque autonomous action.",
+  "risk_consequence_context": "Incorrect matches could cause payment errors, carrier disputes, data exposure, or reviewer overload. Human payment approval remains required in the current scope.",
+  "management_question": "Where does agentic AI for freight-invoice reconciliation sit relative to deterministic AP automation and adjacent logistics deployments, and what signals should management monitor before expanding beyond a supervised pilot?",
+  "time_horizon": "12-18 months; landscape refreshed quarterly and on trigger events.",
+  "additional_context": "Primary case. Distinguish overall AI adoption, agentic-AI adoption, logistics production evidence, and freight-invoice-specific evidence."
+}

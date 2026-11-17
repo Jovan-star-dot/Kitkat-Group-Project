@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "LLM-based agentic AI that plans multi-step work, calls tools/APIs, observes results, and iterates with bounded human oversight.",
+  "intended_application": "Customer-service intake and proposed account-change workflow, including address-change assistance and dispute intake, with human authorization for consequential account changes.",
+  "organization": "Regional community bank.",
+  "industry_sector": "Regulated financial services.",
+  "business_need": "Reduce service handling time while maintaining identity, authorization, privacy, audit and compliance controls.",
+  "users_stakeholders": "Customers, service agents, operations, compliance, fraud, information security, internal audit.",
+  "adoption_posture": "Conservative / risk-averse for autonomous account-changing actions.",
+  "capabilities_constraints": "Regulated systems; identity and authorization controls; audit requirements; strict data handling; change management and vendor-risk review.",
+  "risk_consequence_context": "Incorrect or unauthorized actions can create customer harm, fraud, legal/compliance exposure and remediation costs.",
+  "management_question": "Which agentic-AI landscape signals, incumbent controls and regulatory/identity dependencies matter most for bank service workflows, and what should management monitor before expanding agent authority?",
+  "time_horizon": "12-24 months; refresh at least quarterly and on material regulatory/standards changes.",
+  "additional_context": "Contrast: same ET but regulated/high-consequence application. Relevant alternatives and monitoring triggers should shift toward deterministic workflows, supervised assistants, identity/authorization, audit and regulatory signals."
+}
