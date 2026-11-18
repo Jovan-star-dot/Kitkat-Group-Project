@@ -1,7 +1,7 @@
 # KitKat Agent Inventory
 
 Seven slots reserved for course specialists.
-Slots 1 through 6 are the team-approved Creation, Innovation Classification, Promethean Classification, Diffusion, Adoption and Organizational Adoption specialists. Slot 7 remains reserved.
+Slots 1 through 7 are the team-approved Creation, Innovation Classification, Promethean Classification, Diffusion, Adoption, Organizational Adoption and Landscape specialists. All seven passed a representative saved-response contract check. Ready to begin integration design; no integrated orchestration run has been performed.
 
 | Slot | Specialist | Contributor | Version/commit | Evidence location | Validation | Reviewer | Approval |
 |---|---|---|---|---|---|---|---|
@@ -34,3 +34,6 @@ Policy, five-source lineage, seven cases, qualified response, approval, preserve
 
 Organizational Adoption location: MASY1800_ET_Agent_Scaffold_v1_0/agents/organizational_adoption_agent/.
 Framework, intake, five-source lineage, five cases, qualified findings, approval and execution limits: team/lab8/.
+
+Landscape location: MASY1800_ET_Agent_Scaffold_v1_0/agents/landscape_agent/.
+Dated evidence, source lineage, contrast, regression, and handoff limitation: team/lab9/.

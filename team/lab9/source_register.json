@@ -1,0 +1,47 @@
+[
+  {
+    "id": "S1",
+    "source": "Gartner, The Latest Gartner Hype Cycle for Artificial Intelligence Puts Control Ahead of Capability",
+    "url": "https://www.gartner.com/en/articles/hype-cycle-for-artificial-intelligence",
+    "date": "2026-10-01; verified 2026-11-17 ET",
+    "type": "Analyst report, broad adoption and intent",
+    "claim": "Gartner reports 17% had deployed AI agents and more than 60% expected to deploy within two years.",
+    "limit": "Intent is not deployment. Broad self-reported status does not establish sustained production or the missing-package workflow; no comparable retailer denominator is established by the public article."
+  },
+  {
+    "id": "S2",
+    "source": "Yao et al., τ-bench",
+    "url": "https://arxiv.org/abs/2406.12045",
+    "date": "2024-06-17 submission; verified 2026-11-17 ET",
+    "type": "Original research preprint; simulated benchmark",
+    "claim": "The benchmark evaluates multi-turn, rules- and tool-mediated agent tasks in simulated retail and airline environments.",
+    "limit": "Historical task-design evidence, not live operations, current vendor ranking, or measured ROI."
+  },
+  {
+    "id": "S3",
+    "source": "NIST AI 600-1, Generative Artificial Intelligence Profile",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "date": "2024-07; verified 2026-11-17 ET",
+    "type": "Public voluntary risk guidance",
+    "claim": "Provides a general reference for risk identification, evaluation and oversight.",
+    "limit": "Not a binding local requirement, operational clearance or proof of compliance."
+  },
+  {
+    "id": "S4",
+    "source": "Shopify Admin GraphQL API, Fulfillment",
+    "url": "https://shopify.dev/docs/api/admin-graphql/2026-10/objects/Fulfillment",
+    "date": "2026-10 API version; verified 2026-11-17 ET",
+    "type": "Vendor technical documentation",
+    "claim": "Documents fulfillment and tracking fields and scoped access options.",
+    "limit": "Does not prove a specific retailer has access, fresh feed data, or audited error recovery."
+  },
+  {
+    "id": "S5",
+    "source": "Zendesk, About omnichannel routing",
+    "url": "https://support.zendesk.com/hc/en-us/articles/4409149119514-About-omnichannel-routing",
+    "date": "Live reference checked 2026-11-17 ET",
+    "type": "Vendor product documentation",
+    "claim": "Describes configurable routing with plan-dependent rules and options.",
+    "limit": "Shows a possible workflow complement, not verified local capabilities, delivery status or performance."
+  }
+]

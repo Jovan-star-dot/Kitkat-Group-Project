@@ -1,0 +1,31 @@
+FROZEN CORE INTACT
+PASS: primary: official validator plus full input/output schema
+PASS: primary: exact composed prompt reproducible
+PASS: primary: canonical agent identity and version
+PASS: primary: source origin retained without duplicates
+PASS: primary: explicit monitoring consequences
+PASS: contrast_1: official validator plus full input/output schema
+PASS: contrast_1: exact composed prompt reproducible
+PASS: contrast_1: canonical agent identity and version
+PASS: contrast_1: source origin retained without duplicates
+PASS: contrast_1: explicit monitoring consequences
+PASS: weak_evidence: official validator plus full input/output schema
+PASS: weak_evidence: exact composed prompt reproducible
+PASS: weak_evidence: canonical agent identity and version
+PASS: weak_evidence: source origin retained without duplicates
+PASS: weak_evidence: explicit monitoring consequences
+PASS: controlled contrast: identical technology, organization, horizon and evidence cut
+PASS: general finding stays stable across both contrasts
+PASS: strongest conventional comparator changes with application
+PASS: application monitoring shifts from delivery evidence to handbook controls
+PASS: weak evidence does not upgrade position
+PASS: constructed false adoption claim and invented numerical gate explicitly rejected
+PASS: negative schema control: extra landscape_score rejected
+PASS: interface smoke audit: creation_agent (0.2-team)
+PASS: interface smoke audit: innovation_classification_agent (1.0-team)
+PASS: interface smoke audit: promethean_classification_agent (1.0-team)
+PASS: interface smoke audit: diffusion_agent (1.0-team)
+PASS: interface smoke audit: adoption_agent (1.0-team)
+PASS: interface smoke audit: organizational_adoption_agent (1.0-team)
+PASS: interface smoke audit: landscape_agent (1.0-team)
+SUMMARY: 3 Landscape cases and 7 representative specialist contracts passed; frozen core intact. No orchestrator execution.
